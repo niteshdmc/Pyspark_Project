@@ -10,7 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/relmart_project_env" />
       <excludeFolder url="file://$MODULE_DIR$/relmart_project-env" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (relmart-project)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (relmart-project)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -283,7 +283,7 @@ def main():
                                                       "phone_number", "sales_date", "total_cost")
 
 
-            write_dataframe(enriched_df, config.customer_datamart_local_file)
+            write_dataframe(enriched_df)
             logger.info("Parquet file written successfully")
 
 

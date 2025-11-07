@@ -15,6 +15,7 @@ def spark_session():
     try:
         spark = (
             SparkSession.builder.master("local[*]").appName("relmart_app")
+            .config("spark.driver.host", "localhost")
             .config("spark.driver.extraClassPath", "C:\\mysql-connector\\mysql-connector-j-9.5.0.jar")     # Include MySQL JDBC driver
             .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.2,com.amazonaws:aws-java-sdk-bundle:1.12.262") # Include AWS + Hadoop libraries for S3 access
             .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") #S3 connection configuration
