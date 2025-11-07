@@ -1,4 +1,5 @@
 #Imports
+import os
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, DateType
 
 #Static Variables
@@ -9,8 +10,9 @@ iv = "proj_rel_encrypt"
 salt = "martproject_AesEncryption"
 
 #AWS Access And Secret key
-#aws_access_key = "accesskey"
-#aws_secret_key = "secretkey"
+aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+
 
 #AWS S3 Bucket and directories
 bucket_name = "relmart-sales-project"
