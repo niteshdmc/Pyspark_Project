@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_address,store_id,product_name,sales_date,sales_person_id,price,quantity,total_cost,sales_person_name,discount,customer_type
+2,,,123,Prestige Induction Cooktop,2023-04-08,8,4990,5,24950,,50,Frequent Buyer
+14,,,121,Nike Air Max Sneakers,2023-05-21,2,12999,7,90993,,20,Looker
+4,,,123,Dyson Supersonic Hair Dryer,2023-03-14,8,32900,9,296100,,25,offer specific
+17,,,122,Davidoff Coffee Beans,2023-07-18,4,1100,5,5500,,75,offer specific
+1,,,123,Samsung 55-inch 4K QLED TV,2023-04-21,8,84990,7,594930,,40,offer specific
+16,,,123,Apple iPhone 14 Pro,2023-08-14,7,134999,4,539996,,10,offer specific
+1,,,123,Dell XPS 13 Laptop,2023-05-13,9,124999,7,874993,,25,offer specific
+12,,,123,Dell XPS 13 Laptop,2023-03-12,9,124999,1,124999,,50,offer specific
+1,,,121,Dyson Supersonic Hair Dryer,2023-08-17,1,32900,4,131600,,20,offer specific
+5,,,123,Prestige Induction Cooktop,2023-07-16,8,4990,9,44910,,25,offer specific
+11,,,122,Apple Watch Series 9,2023-08-07,6,45900,1,45900,,75,offer specific
+19,,,123,India Gate Basmati Rice,2023-05-20,7,700,10,7000,,50,offer specific
+12,,,122,Ray-Ban Aviator Sunglasses,2023-06-23,4,9990,8,79920,,20,offer specific
+7,,,122,Dell XPS 13 Laptop,2023-05-24,6,124999,5,624995,,25,offer specific
+19,,,121,Ray-Ban Aviator Sunglasses,2023-06-15,1,9990,6,59940,,75,offer specific
+11,,,122,Prestige Induction Cooktop,2023-07-09,6,4990,1,4990,,40,offer specific
+8,,,122,Dyson V12 Vacuum Cleaner,2023-03-21,4,65900,10,659000,,10,customer_type
+18,,,121,Dyson Supersonic Hair Dryer,2023-06-23,2,32900,3,98700,,25,Frequent Buyer
+11,,,121,Prestige Induction Cooktop,2023-07-20,2,4990,10,49900,,50,Looker
+2,,,122,Apple iPhone 14 Pro,2023-06-07,5,134999,6,809994,,20,offer specific
+13,,,123,Prestige Induction Cooktop,2023-04-01,9,4990,10,49900,,25,offer specific
+10,,,121,Dyson Supersonic Hair Dryer,2023-04-04,3,32900,2,65800,,75,offer specific
+12,,,122,Clinique Moisture Surge Cream,2023-05-15,6,2700,7,18900,,50,offer specific
+16,,,123,Powermax Adjustable Dumbbell Set,2023-04-23,7,14999,10,149990,,20,offer specific
+9,,,122,Powermax Adjustable Dumbbell Set,2023-08-01,5,14999,3,44997,,25,offer specific
+1,,,123,Davidoff Coffee Beans,2023-07-05,7,1100,3,3300,,75,offer specific
+8,,,121,Samsung 55-inch 4K QLED TV,2023-05-07,2,84990,9,764910,,40,offer specific
+15,,,121,Apple iPhone 14 Pro,2023-04-11,2,134999,7,944993,,10,offer specific
+11,,,123,Apple iPhone 14 Pro,2023-07-30,8,134999,2,269998,,25,offer specific
+20,,,121,India Gate Basmati Rice,2023-06-13,3,700,2,1400,,50,offer specific
+5,,,123,Dell XPS 13 Laptop,2023-04-24,9,124999,4,499996,,20,offer specific
+4,,,121,Nike Air Max Sneakers,2023-06-09,3,12999,10,129990,,25,offer specific
+9,,,121,Samsung 55-inch 4K QLED TV,2023-07-26,2,84990,6,509940,,50,offer specific
+4,,,123,Prestige Induction Cooktop,2023-07-18,9,4990,7,34930,,20,customer_type
+2,,,122,Prestige Induction Cooktop,2023-07-20,4,4990,3,14970,,25,Frequent Buyer
+20,,,122,Ray-Ban Aviator Sunglasses,2023-05-21,4,9990,10,99900,,75,Looker
+17,,,121,Tissot PRX Watch,2023-06-12,2,49500,6,297000,,40,offer specific
+9,,,123,Cosco Resistance Band,2023-03-12,9,350,1,350,,10,offer specific
+18,,,123,Dyson Supersonic Hair Dryer,2023-03-10,8,32900,4,131600,,25,offer specific
+5,,,122,Sony WH-1000XM5 Headphones,2023-04-14,4,29990,1,29990,,50,offer specific
+20,,,123,Davidoff Coffee Beans,2023-05-02,7,1100,4,4400,,20,offer specific
+9,,,121,Apple iPhone 14 Pro,2023-05-19,2,134999,4,539996,,25,offer specific
+18,,,122,Prestige Induction Cooktop,2023-05-06,5,4990,1,4990,,75,offer specific
+3,,,123,Sony WH-1000XM5 Headphones,2023-03-23,9,29990,6,179940,,50,offer specific
+15,,,123,Apple Watch Series 9,2023-04-24,7,45900,8,367200,,20,offer specific
+10,,,123,Ray-Ban Aviator Sunglasses,2023-03-27,7,9990,3,29970,,25,offer specific
+10,,,121,Clinique Moisture Surge Cream,2023-08-12,1,2700,9,24300,,75,offer specific
+17,,,123,Ray-Ban Aviator Sunglasses,2023-03-12,8,9990,3,29970,,40,offer specific
+14,,,122,Clinique Moisture Surge Cream,2023-07-29,4,2700,8,21600,,10,offer specific
+20,,,121,Tissot PRX Watch,2023-05-18,3,49500,4,198000,,25,offer specific
+6,,,121,India Gate Basmati Rice,2023-08-05,1,700,8,5600,,50,customer_type
+3,,,123,Ray-Ban Aviator Sunglasses,2023-04-27,8,9990,2,19980,,20,Frequent Buyer
+3,,,121,Powermax Adjustable Dumbbell Set,2023-04-04,1,14999,9,134991,,25,Looker
+18,,,123,Ray-Ban Aviator Sunglasses,2023-08-18,7,9990,6,59940,,75,offer specific
+12,,,122,Apple iPhone 14 Pro,2023-03-06,5,134999,9,1214991,,50,offer specific
+2,,,122,Apple iPhone 14 Pro,2023-06-10,5,134999,9,1214991,,20,offer specific
+4,,,121,Davidoff Coffee Beans,2023-04-03,2,1100,2,2200,,25,offer specific
+15,,,121,Tissot PRX Watch,2023-08-18,3,49500,2,99000,,75,offer specific
+4,,,121,Dell XPS 13 Laptop,2023-04-21,3,124999,10,1249990,,40,offer specific
+7,,,122,Cosco Resistance Band,2023-04-04,4,350,4,1400,,10,offer specific
+7,,,123,Samsung 55-inch 4K QLED TV,2023-03-05,8,84990,10,849900,,25,offer specific
+14,,,122,Dyson V12 Vacuum Cleaner,2023-03-20,4,65900,9,593100,,50,offer specific
+11,,,123,Amul 85% Dark Chocolate,2023-05-29,7,450,1,450,,20,offer specific
+15,,,123,Ray-Ban Aviator Sunglasses,2023-05-26,9,9990,5,49950,,25,offer specific
+8,,,123,Powermax Adjustable Dumbbell Set,2023-03-22,8,14999,8,119992,,50,offer specific
+13,,,122,Prestige Induction Cooktop,2023-06-20,4,4990,6,29940,,20,offer specific
+6,,,122,Sony WH-1000XM5 Headphones,2023-04-08,6,29990,6,179940,,25,offer specific
+8,,,123,Sony WH-1000XM5 Headphones,2023-05-09,8,29990,4,119960,,75,customer_type
+20,,,123,India Gate Basmati Rice,2023-07-14,8,700,1,700,,40,Frequent Buyer
+8,,,123,Tissot PRX Watch,2023-04-30,8,49500,2,99000,,10,Looker
+4,,,121,Ray-Ban Aviator Sunglasses,2023-05-26,1,9990,9,89910,,25,offer specific
+4,,,122,Davidoff Coffee Beans,2023-04-06,6,1100,9,9900,,50,offer specific
+8,,,123,Samsung 55-inch 4K QLED TV,2023-08-08,9,84990,6,509940,,20,offer specific
+9,,,121,Apple Watch Series 9,2023-05-25,2,45900,2,91800,,25,offer specific
+17,,,121,Sony WH-1000XM5 Headphones,2023-03-20,2,29990,3,89970,,75,offer specific
+2,,,123,Powermax Adjustable Dumbbell Set,2023-06-03,8,14999,10,149990,,50,offer specific
+16,,,121,Dell XPS 13 Laptop,2023-05-09,2,124999,6,749994,,20,offer specific
+2,,,122,Dyson Supersonic Hair Dryer,2023-08-09,5,32900,4,131600,,25,offer specific
+12,,,122,Clinique Moisture Surge Cream,2023-08-18,6,2700,3,8100,,75,offer specific
+3,,,121,Dyson V12 Vacuum Cleaner,2023-06-12,2,65900,5,329500,,40,offer specific
+9,,,121,Tissot PRX Watch,2023-03-22,3,49500,10,495000,,10,offer specific
+10,,,123,Dyson Supersonic Hair Dryer,2023-06-18,7,32900,10,329000,,25,offer specific
+14,,,121,Prestige Induction Cooktop,2023-04-30,2,4990,5,24950,,50,offer specific
+17,,,121,Tissot PRX Watch,2023-06-07,2,49500,2,99000,,20,offer specific
+3,,,121,Nike Air Max Sneakers,2023-07-05,2,12999,7,90993,,25,customer_type
+2,,,123,Ray-Ban Aviator Sunglasses,2023-08-08,9,9990,7,69930,,75,Frequent Buyer
+9,,,121,Apple iPhone 14 Pro,2023-08-16,2,134999,7,944993,,50,Looker
+10,,,122,Amul 85% Dark Chocolate,2023-07-18,6,450,10,4500,,20,offer specific
+11,,,123,Prestige Induction Cooktop,2023-06-27,8,4990,1,4990,,25,offer specific
+14,,,123,Clinique Moisture Surge Cream,2023-04-14,9,2700,5,13500,,75,offer specific
+7,,,123,Samsung 55-inch 4K QLED TV,2023-03-14,8,84990,7,594930,,40,offer specific
+5,,,122,Cosco Resistance Band,2023-08-05,5,350,1,350,,10,offer specific
+10,,,122,Powermax Adjustable Dumbbell Set,2023-03-15,5,14999,3,44997,,25,offer specific
+8,,,123,Powermax Adjustable Dumbbell Set,2023-06-02,9,14999,3,44997,,50,offer specific
+3,,,122,Tissot PRX Watch,2023-07-16,6,49500,10,495000,,20,offer specific
+14,,,121,Cosco Resistance Band,2023-06-17,1,350,10,3500,,25,offer specific
+3,,,123,Dell XPS 13 Laptop,2023-03-15,9,124999,6,749994,,50,offer specific
+8,,,123,Cosco Resistance Band,2023-06-16,9,350,10,3500,,20,offer specific
+16,,,122,Clinique Moisture Surge Cream,2023-08-05,6,2700,5,13500,,25,offer specific
+1,,,123,Amul 85% Dark Chocolate,2023-03-12,9,450,8,3600,,75,offer specific
+14,,,122,Davidoff Coffee Beans,2023-04-24,5,1100,6,6600,,40,offer specific
+18,,,122,Prestige Induction Cooktop,2023-05-14,6,4990,10,49900,,10,customer_type
+17,,,123,Clinique Moisture Surge Cream,2023-03-11,7,2700,2,5400,,25,Frequent Buyer
+3,,,123,Apple iPhone 14 Pro,2023-04-02,8,134999,1,134999,,50,Looker
+2,,,123,Dyson Supersonic Hair Dryer,2023-06-01,9,32900,5,164500,,20,offer specific
+8,,,122,Apple iPhone 14 Pro,2023-06-13,4,134999,4,539996,,25,offer specific
+15,,,123,Dyson V12 Vacuum Cleaner,2023-08-17,9,65900,9,593100,,75,offer specific
+11,,,123,Powermax Adjustable Dumbbell Set,2023-04-03,8,14999,9,134991,,50,offer specific
+10,,,123,Apple Watch Series 9,2023-03-27,8,45900,6,275400,,20,offer specific
+18,,,122,Clinique Moisture Surge Cream,2023-04-30,6,2700,6,16200,,25,offer specific
+19,,,123,Nike Air Max Sneakers,2023-05-07,9,12999,10,129990,,75,offer specific
+8,,,121,Dyson V12 Vacuum Cleaner,2023-04-09,2,65900,2,131800,,40,offer specific
+13,,,121,Cosco Resistance Band,2023-08-02,2,350,5,1750,,10,offer specific
+8,,,122,Davidoff Coffee Beans,2023-07-03,4,1100,10,11000,,25,offer specific
+13,,,121,Clinique Moisture Surge Cream,2023-06-30,3,2700,1,2700,,50,offer specific
+6,,,123,Powermax Adjustable Dumbbell Set,2023-07-26,7,14999,5,74995,,20,offer specific
+2,,,123,Ray-Ban Aviator Sunglasses,2023-04-20,8,9990,2,19980,,25,offer specific
+19,,,121,Powermax Adjustable Dumbbell Set,2023-06-09,2,14999,6,89994,,75,offer specific
+1,,,121,Cosco Resistance Band,2023-07-08,3,350,2,700,,50,customer_type
+13,,,121,India Gate Basmati Rice,2023-04-07,2,700,8,5600,,20,Frequent Buyer
+6,,,123,Samsung 55-inch 4K QLED TV,2023-03-23,9,84990,5,424950,,25,Looker
+4,,,121,Amul 85% Dark Chocolate,2023-07-12,3,450,8,3600,,75,offer specific
+8,,,123,Clinique Moisture Surge Cream,2023-05-11,8,2700,8,21600,,40,offer specific
+17,,,121,Powermax Adjustable Dumbbell Set,2023-05-19,2,14999,10,149990,,10,offer specific
+9,,,121,Prestige Induction Cooktop,2023-05-14,2,4990,4,19960,,25,offer specific
+18,,,122,Samsung 55-inch 4K QLED TV,2023-07-02,4,84990,1,84990,,50,offer specific
+7,,,121,Clinique Moisture Surge Cream,2023-08-14,3,2700,7,18900,,20,offer specific
+7,,,122,Dyson V12 Vacuum Cleaner,2023-03-09,4,65900,2,131800,,25,offer specific
+11,,,122,Samsung 55-inch 4K QLED TV,2023-05-31,6,84990,6,509940,,50,offer specific
+4,,,123,Powermax Adjustable Dumbbell Set,2023-07-14,9,14999,9,134991,,20,offer specific
+15,,,123,Apple iPhone 14 Pro,2023-07-14,7,134999,9,1214991,,25,offer specific
+17,,,121,Dell XPS 13 Laptop,2023-03-11,1,124999,8,999992,,75,offer specific
+2,,,121,Davidoff Coffee Beans,2023-06-02,3,1100,4,4400,,40,offer specific
+17,,,121,Prestige Induction Cooktop,2023-03-24,1,4990,5,24950,,10,offer specific
+19,,,121,Dyson V12 Vacuum Cleaner,2023-06-30,2,65900,4,263600,,25,offer specific
+8,,,122,Dyson V12 Vacuum Cleaner,2023-05-27,6,65900,5,329500,,50,customer_type
+1,,,123,Clinique Moisture Surge Cream,2023-04-22,8,2700,4,10800,,20,Frequent Buyer
+18,,,122,Sony WH-1000XM5 Headphones,2023-03-20,4,29990,5,149950,,25,Looker
+8,,,121,Samsung 55-inch 4K QLED TV,2023-07-16,2,84990,4,339960,,75,offer specific
+18,,,122,Sony WH-1000XM5 Headphones,2023-04-05,4,29990,8,239920,,50,offer specific
+15,,,121,Powermax Adjustable Dumbbell Set,2023-07-28,1,14999,8,119992,,20,offer specific
+10,,,121,Tissot PRX Watch,2023-08-05,1,49500,10,495000,,25,offer specific
+12,,,121,Clinique Moisture Surge Cream,2023-06-13,1,2700,8,21600,,75,offer specific
+7,,,121,Ray-Ban Aviator Sunglasses,2023-06-18,3,9990,8,79920,,40,offer specific
+18,,,122,India Gate Basmati Rice,2023-07-15,6,700,10,7000,,10,offer specific
+10,,,121,Apple Watch Series 9,2023-04-05,2,45900,6,275400,,25,offer specific
+16,,,122,Samsung 55-inch 4K QLED TV,2023-05-23,5,84990,9,764910,,50,offer specific
+20,,,122,Samsung 55-inch 4K QLED TV,2023-03-05,6,84990,1,84990,,20,offer specific
+11,,,123,Amul 85% Dark Chocolate,2023-07-27,8,450,3,1350,,25,offer specific
+8,,,121,Nike Air Max Sneakers,2023-04-24,2,12999,2,25998,,75,offer specific
+4,,,122,Amul 85% Dark Chocolate,2023-04-11,5,450,10,4500,,50,offer specific
+1,,,122,Clinique Moisture Surge Cream,2023-07-22,5,2700,2,5400,,20,offer specific
+3,,,123,Ray-Ban Aviator Sunglasses,2023-04-01,9,9990,4,39960,,25,customer_type
+18,,,122,Cosco Resistance Band,2023-08-06,4,350,8,2800,,75,Frequent Buyer
+4,,,123,Davidoff Coffee Beans,2023-07-10,7,1100,8,8800,,40,Looker
+15,,,123,Nike Air Max Sneakers,2023-08-18,8,12999,2,25998,,10,offer specific
+17,,,122,Apple Watch Series 9,2023-05-20,6,45900,4,183600,,25,offer specific
+15,,,123,Samsung 55-inch 4K QLED TV,2023-06-07,8,84990,7,594930,,50,offer specific
+7,,,122,Ray-Ban Aviator Sunglasses,2023-04-20,4,9990,1,9990,,20,offer specific
+13,,,123,Clinique Moisture Surge Cream,2023-03-23,9,2700,5,13500,,25,offer specific
+7,,,123,India Gate Basmati Rice,2023-04-12,9,700,3,2100,,50,offer specific
+16,,,122,Prestige Induction Cooktop,2023-04-12,5,4990,7,34930,,20,offer specific
+12,,,121,Ray-Ban Aviator Sunglasses,2023-07-31,2,9990,10,99900,,25,offer specific
+13,,,122,Clinique Moisture Surge Cream,2023-03-15,6,2700,10,27000,,75,offer specific
+7,,,123,Apple iPhone 14 Pro,2023-06-14,9,134999,3,404997,,40,offer specific
+10,,,123,Powermax Adjustable Dumbbell Set,2023-06-17,9,14999,6,89994,,10,offer specific
+19,,,123,Amul 85% Dark Chocolate,2023-08-12,8,450,8,3600,,25,offer specific
+18,,,122,Clinique Moisture Surge Cream,2023-07-13,6,2700,6,16200,,50,offer specific
+15,,,123,Clinique Moisture Surge Cream,2023-08-06,9,2700,8,21600,,20,offer specific
+8,,,122,Cosco Resistance Band,2023-08-17,5,350,2,700,,25,customer_type
+9,,,122,Prestige Induction Cooktop,2023-03-14,5,4990,9,44910,,75,Frequent Buyer
+3,,,121,Amul 85% Dark Chocolate,2023-05-15,1,450,4,1800,,50,Looker
+1,,,121,India Gate Basmati Rice,2023-05-23,2,700,10,7000,,20,offer specific
+12,,,121,Apple iPhone 14 Pro,2023-07-09,2,134999,8,1079992,,25,offer specific
+12,,,122,Apple Watch Series 9,2023-07-19,5,45900,6,275400,,75,offer specific
+15,,,122,Amul 85% Dark Chocolate,2023-07-04,5,450,1,450,,40,offer specific
+2,,,121,Powermax Adjustable Dumbbell Set,2023-04-15,3,14999,9,134991,,10,offer specific
+10,,,121,Clinique Moisture Surge Cream,2023-06-30,2,2700,4,10800,,25,offer specific
+2,,,123,Apple iPhone 14 Pro,2023-04-11,9,134999,8,1079992,,50,offer specific
+4,,,123,Powermax Adjustable Dumbbell Set,2023-05-08,7,14999,3,44997,,20,offer specific
+1,,,123,Cosco Resistance Band,2023-03-14,8,350,3,1050,,25,offer specific
+10,,,121,Nike Air Max Sneakers,2023-03-16,3,12999,10,129990,,75,offer specific
+8,,,123,Tissot PRX Watch,2023-03-13,9,49500,1,49500,,50,offer specific
+5,,,123,Nike Air Max Sneakers,2023-03-17,7,12999,1,12999,,20,offer specific
+9,,,121,Samsung 55-inch 4K QLED TV,2023-03-26,3,84990,5,424950,,25,offer specific
+19,,,122,Apple Watch Series 9,2023-05-06,5,45900,10,459000,,75,offer specific
+7,,,123,Powermax Adjustable Dumbbell Set,2023-03-20,8,14999,1,14999,,40,customer_type
+11,,,122,Apple Watch Series 9,2023-05-07,4,45900,9,413100,,10,Frequent Buyer
+13,,,123,Apple Watch Series 9,2023-04-08,8,45900,5,229500,,25,Looker
+14,,,121,Dell XPS 13 Laptop,2023-05-01,3,124999,3,374997,,50,offer specific
+14,,,121,Sony WH-1000XM5 Headphones,2023-08-07,3,29990,9,269910,,20,offer specific
+1,,,121,Samsung 55-inch 4K QLED TV,2023-03-17,3,84990,3,254970,,25,offer specific
+14,,,121,Sony WH-1000XM5 Headphones,2023-03-07,3,29990,2,59980,,50,offer specific
+14,,,121,Apple Watch Series 9,2023-04-08,1,45900,7,321300,,20,offer specific
+3,,,122,Cosco Resistance Band,2023-04-17,4,350,1,350,,25,offer specific
+12,,,123,Powermax Adjustable Dumbbell Set,2023-08-18,8,14999,9,134991,,75,offer specific
+20,,,123,Davidoff Coffee Beans,2023-08-18,7,1100,2,2200,,40,offer specific
+17,,,123,Ray-Ban Aviator Sunglasses,2023-05-29,8,9990,6,59940,,10,offer specific
+8,,,122,Clinique Moisture Surge Cream,2023-06-21,4,2700,3,8100,,25,offer specific
+2,,,123,Powermax Adjustable Dumbbell Set,2023-03-06,9,14999,3,44997,,50,offer specific
+15,,,123,Nike Air Max Sneakers,2023-03-14,7,12999,6,77994,,20,offer specific
+4,,,123,Dell XPS 13 Laptop,2023-06-28,7,124999,6,749994,,25,offer specific
+1,,,122,Clinique Moisture Surge Cream,2023-04-14,4,2700,7,18900,,75,offer specific
+10,,,123,Amul 85% Dark Chocolate,2023-04-12,9,450,8,3600,,50,customer_type
+12,,,121,Ray-Ban Aviator Sunglasses,2023-05-12,2,9990,10,99900,,20,Frequent Buyer
+12,,,121,Dyson V12 Vacuum Cleaner,2023-06-12,1,65900,1,65900,,25,Looker
+3,,,123,Clinique Moisture Surge Cream,2023-07-30,9,2700,9,24300,,75,offer specific
+13,,,122,Cosco Resistance Band,2023-06-10,4,350,5,1750,,40,offer specific
+5,,,121,Powermax Adjustable Dumbbell Set,2023-04-28,3,14999,9,134991,,10,offer specific
+11,,,122,Cosco Resistance Band,2023-07-12,5,350,4,1400,,25,offer specific
+14,,,122,Amul 85% Dark Chocolate,2023-06-09,5,450,3,1350,,50,offer specific
+1,,,123,Nike Air Max Sneakers,2023-06-01,9,12999,9,116991,,20,offer specific
+2,,,121,Dyson V12 Vacuum Cleaner,2023-04-27,2,65900,5,329500,,25,offer specific
+5,,,123,Davidoff Coffee Beans,2023-05-12,7,1100,7,7700,,75,offer specific
+9,,,123,Apple Watch Series 9,2023-03-26,7,45900,7,321300,,50,offer specific
+14,,,122,Dyson V12 Vacuum Cleaner,2023-07-16,4,65900,6,395400,,20,offer specific
+2,,,122,Ray-Ban Aviator Sunglasses,2023-06-11,5,9990,5,49950,,25,offer specific
+18,,,123,Powermax Adjustable Dumbbell Set,2023-04-16,8,14999,8,119992,,75,offer specific
+16,,,123,Clinique Moisture Surge Cream,2023-08-05,9,2700,8,21600,,40,offer specific
+2,,,122,Clinique Moisture Surge Cream,2023-06-13,5,2700,2,5400,,10,offer specific
+9,,,122,Cosco Resistance Band,2023-08-05,6,350,6,2100,,25,customer_type
+8,,,121,Tissot PRX Watch,2023-08-16,2,49500,5,247500,,50,Frequent Buyer
+2,,,121,Cosco Resistance Band,2023-04-01,1,350,9,3150,,20,Looker
+8,,,123,Tissot PRX Watch,2023-08-15,7,49500,3,148500,,25,offer specific
+2,,,121,India Gate Basmati Rice,2023-07-02,1,700,2,1400,,50,offer specific
+16,,,121,Apple Watch Series 9,2023-07-28,2,45900,2,91800,,20,offer specific
+7,,,122,Davidoff Coffee Beans,2023-07-21,5,1100,6,6600,,25,offer specific
+2,,,121,Cosco Resistance Band,2023-05-05,3,350,6,2100,,75,offer specific
+1,,,123,Dell XPS 13 Laptop,2023-07-29,8,124999,9,1124991,,40,offer specific
+18,,,121,Tissot PRX Watch,2023-05-28,3,49500,7,346500,,10,offer specific
+2,,,123,Clinique Moisture Surge Cream,2023-03-09,7,2700,10,27000,,25,offer specific
+10,,,121,Dyson V12 Vacuum Cleaner,2023-08-02,1,65900,5,329500,,50,offer specific
+12,,,122,Tissot PRX Watch,2023-06-18,5,49500,5,247500,,20,offer specific
+9,,,121,Nike Air Max Sneakers,2023-08-01,1,12999,6,77994,,25,offer specific
+8,,,123,Apple iPhone 14 Pro,2023-05-04,9,134999,6,809994,,75,offer specific
+9,,,121,Amul 85% Dark Chocolate,2023-05-14,2,450,7,3150,,50,offer specific
+8,,,122,Dell XPS 13 Laptop,2023-07-17,5,124999,7,874993,,20,offer specific
+18,,,121,Sony WH-1000XM5 Headphones,2023-06-17,1,29990,2,59980,,25,customer_type
+19,,,121,Amul 85% Dark Chocolate,2023-04-29,2,450,7,3150,,75,Frequent Buyer
+4,,,122,Cosco Resistance Band,2023-06-30,4,350,3,1050,,40,Looker
+18,,,122,India Gate Basmati Rice,2023-03-23,4,700,1,700,,10,offer specific
+9,,,121,Prestige Induction Cooktop,2023-05-26,1,4990,9,44910,,25,offer specific
+11,,,121,Dell XPS 13 Laptop,2023-08-02,3,124999,3,374997,,50,offer specific
+13,,,121,Tissot PRX Watch,2023-07-03,3,49500,8,396000,,20,offer specific
+13,,,123,Amul 85% Dark Chocolate,2023-07-12,7,450,5,2250,,25,offer specific
+18,,,122,Amul 85% Dark Chocolate,2023-07-17,4,450,6,2700,,75,offer specific
+7,,,121,Nike Air Max Sneakers,2023-08-10,2,12999,3,38997,,50,offer specific
+10,,,123,Nike Air Max Sneakers,2023-03-26,8,12999,6,77994,,20,offer specific
+14,,,122,Prestige Induction Cooktop,2023-07-05,6,4990,3,14970,,25,offer specific
+12,,,122,Davidoff Coffee Beans,2023-03-09,6,1100,1,1100,,75,offer specific
+8,,,122,Sony WH-1000XM5 Headphones,2023-07-28,4,29990,6,179940,,40,offer specific
+11,,,123,Powermax Adjustable Dumbbell Set,2023-04-17,9,14999,8,119992,,10,offer specific
+12,,,121,Nike Air Max Sneakers,2023-03-09,3,12999,9,116991,,25,offer specific
+3,,,123,Samsung 55-inch 4K QLED TV,2023-06-23,8,84990,10,849900,,50,offer specific
+14,,,122,Tissot PRX Watch,2023-05-28,6,49500,5,247500,,20,customer_type
+14,,,123,Powermax Adjustable Dumbbell Set,2023-06-13,7,14999,2,29998,,25,Frequent Buyer
+3,,,122,Nike Air Max Sneakers,2023-05-11,4,12999,1,12999,,50,Looker
+3,,,123,Prestige Induction Cooktop,2023-04-17,8,4990,8,39920,,20,offer specific
+7,,,121,Powermax Adjustable Dumbbell Set,2023-07-05,2,14999,1,14999,,25,offer specific
+15,,,122,Nike Air Max Sneakers,2023-03-19,4,12999,6,77994,,75,offer specific
+18,,,122,Apple Watch Series 9,2023-08-10,6,45900,8,367200,,40,offer specific
+8,,,122,Nike Air Max Sneakers,2023-04-11,6,12999,7,90993,,10,offer specific
+16,,,121,Dell XPS 13 Laptop,2023-05-29,1,124999,6,749994,,25,offer specific
+16,,,123,Prestige Induction Cooktop,2023-06-14,9,4990,1,4990,,50,offer specific
+4,,,121,Tissot PRX Watch,2023-05-19,2,49500,3,148500,,20,offer specific
+4,,,123,Powermax Adjustable Dumbbell Set,2023-08-13,8,14999,6,89994,,25,offer specific
+9,,,123,Tissot PRX Watch,2023-08-19,9,49500,10,495000,,75,offer specific
+20,,,122,Apple iPhone 14 Pro,2023-07-07,5,134999,10,1349990,,50,offer specific
+18,,,122,Apple Watch Series 9,2023-04-27,4,45900,1,45900,,20,offer specific
+13,,,121,Apple iPhone 14 Pro,2023-04-26,2,134999,2,269998,,25,offer specific
+5,,,123,Samsung 55-inch 4K QLED TV,2023-05-29,9,84990,10,849900,,75,offer specific
+15,,,121,Apple Watch Series 9,2023-04-22,1,45900,9,413100,,40,customer_type
+7,,,122,Dyson Supersonic Hair Dryer,2023-06-04,5,32900,8,263200,,10,Frequent Buyer
+9,,,123,Ray-Ban Aviator Sunglasses,2023-03-09,7,9990,7,69930,,25,Looker
+4,,,123,Samsung 55-inch 4K QLED TV,2023-05-27,8,84990,10,849900,,50,offer specific
+9,,,122,Apple Watch Series 9,2023-04-21,4,45900,5,229500,,20,offer specific
+16,,,123,Samsung 55-inch 4K QLED TV,2023-04-17,9,84990,4,339960,,25,offer specific
+20,,,122,Nike Air Max Sneakers,2023-04-06,4,12999,2,25998,,75,offer specific
+1,,,122,Cosco Resistance Band,2023-06-05,5,350,5,1750,,50,offer specific
+20,,,123,Dyson Supersonic Hair Dryer,2023-04-16,8,32900,7,230300,,20,offer specific
+14,,,121,Powermax Adjustable Dumbbell Set,2023-03-11,1,14999,3,44997,,25,offer specific
+16,,,122,Nike Air Max Sneakers,2023-06-29,6,12999,3,38997,,75,offer specific
+17,,,123,Prestige Induction Cooktop,2023-05-26,9,4990,4,19960,,40,offer specific
+18,,,123,Davidoff Coffee Beans,2023-03-07,9,1100,10,11000,,10,offer specific
+11,,,123,Davidoff Coffee Beans,2023-07-13,9,1100,2,2200,,25,offer specific
+15,,,122,Amul 85% Dark Chocolate,2023-03-06,6,450,5,2250,,50,offer specific
+9,,,121,Apple Watch Series 9,2023-07-23,2,45900,6,275400,,20,offer specific
+7,,,121,Clinique Moisture Surge Cream,2023-05-21,3,2700,2,5400,,25,offer specific
+20,,,123,Prestige Induction Cooktop,2023-03-27,8,4990,7,34930,,50,customer_type
+14,,,122,Clinique Moisture Surge Cream,2023-03-23,4,2700,10,27000,,20,Frequent Buyer
+16,,,122,Apple Watch Series 9,2023-05-22,4,45900,2,91800,,25,Looker
+18,,,123,Clinique Moisture Surge Cream,2023-06-11,7,2700,7,18900,,75,offer specific
+20,,,122,Ray-Ban Aviator Sunglasses,2023-04-14,5,9990,1,9990,,40,offer specific
+17,,,122,Nike Air Max Sneakers,2023-07-11,5,12999,6,77994,,10,offer specific
+2,,,122,India Gate Basmati Rice,2023-03-31,6,700,1,700,,25,offer specific
+9,,,122,Tissot PRX Watch,2023-06-14,4,49500,7,346500,,50,offer specific
+10,,,123,Davidoff Coffee Beans,2023-06-02,9,1100,6,6600,,20,offer specific
+6,,,123,India Gate Basmati Rice,2023-07-29,8,700,3,2100,,25,offer specific
+1,,,123,Apple iPhone 14 Pro,2023-07-20,9,134999,6,809994,,75,offer specific
+5,,,122,Sony WH-1000XM5 Headphones,2023-03-03,5,29990,8,239920,,50,offer specific
+14,,,122,Amul 85% Dark Chocolate,2023-05-19,6,450,10,4500,,20,offer specific
+12,,,122,Powermax Adjustable Dumbbell Set,2023-06-03,6,14999,9,134991,,25,offer specific
+3,,,121,Tissot PRX Watch,2023-07-03,3,49500,7,346500,,75,offer specific
+9,,,123,Prestige Induction Cooktop,2023-05-09,9,4990,3,14970,,40,offer specific
+8,,,122,Dyson Supersonic Hair Dryer,2023-06-10,5,32900,6,197400,,10,offer specific
+8,,,122,India Gate Basmati Rice,2023-05-09,6,700,8,5600,,25,customer_type
+12,,,123,Davidoff Coffee Beans,2023-07-12,7,1100,8,8800,,50,Frequent Buyer
+4,,,122,Powermax Adjustable Dumbbell Set,2023-05-21,4,14999,9,134991,,20,Looker
+15,,,121,Tissot PRX Watch,2023-08-12,1,49500,7,346500,,25,offer specific
+1,,,122,Samsung 55-inch 4K QLED TV,2023-04-01,4,84990,7,594930,,75,offer specific
+15,,,122,Powermax Adjustable Dumbbell Set,2023-04-04,6,14999,4,59996,,50,offer specific
+6,,,121,Cosco Resistance Band,2023-05-05,2,350,10,3500,,20,offer specific
+18,,,121,Prestige Induction Cooktop,2023-07-26,1,4990,10,49900,,25,offer specific
+9,,,122,Apple iPhone 14 Pro,2023-04-07,6,134999,1,134999,,75,offer specific
+8,,,122,Powermax Adjustable Dumbbell Set,2023-05-29,4,14999,9,134991,,40,offer specific
+17,,,123,India Gate Basmati Rice,2023-06-06,7,700,4,2800,,10,offer specific
+5,,,122,Powermax Adjustable Dumbbell Set,2023-04-09,5,14999,3,44997,,25,offer specific
+17,,,121,Clinique Moisture Surge Cream,2023-03-29,1,2700,4,10800,,50,offer specific
+14,,,122,Prestige Induction Cooktop,2023-07-15,4,4990,4,19960,,20,offer specific
+11,,,123,Dyson V12 Vacuum Cleaner,2023-07-20,7,65900,2,131800,,25,offer specific
+6,,,123,Apple iPhone 14 Pro,2023-03-13,9,134999,4,539996,,50,offer specific
+2,,,122,Powermax Adjustable Dumbbell Set,2023-04-08,4,14999,3,44997,,20,offer specific
+11,,,121,Nike Air Max Sneakers,2023-05-16,2,12999,7,90993,,25,customer_type
+13,,,122,Prestige Induction Cooktop,2023-07-14,5,4990,8,39920,,75,Frequent Buyer
+6,,,122,Nike Air Max Sneakers,2023-07-29,4,12999,10,129990,,40,Looker
+9,,,121,Nike Air Max Sneakers,2023-04-13,3,12999,6,77994,,10,offer specific
+19,,,122,India Gate Basmati Rice,2023-07-09,6,700,8,5600,,25,offer specific
+12,,,122,Clinique Moisture Surge Cream,2023-04-25,5,2700,1,2700,,50,offer specific
+3,,,122,India Gate Basmati Rice,2023-07-30,4,700,10,7000,,20,offer specific
+4,,,121,Sony WH-1000XM5 Headphones,2023-07-09,3,29990,4,119960,,25,offer specific
+6,,,123,Tissot PRX Watch,2023-05-27,9,49500,8,396000,,75,offer specific
+18,,,121,Sony WH-1000XM5 Headphones,2023-03-28,2,29990,10,299900,,50,offer specific
+18,,,122,Apple iPhone 14 Pro,2023-07-05,6,134999,8,1079992,,20,offer specific
+14,,,123,Ray-Ban Aviator Sunglasses,2023-06-04,7,9990,1,9990,,25,offer specific
+8,,,123,Powermax Adjustable Dumbbell Set,2023-03-28,9,14999,1,14999,,75,offer specific
+10,,,121,Dell XPS 13 Laptop,2023-03-05,1,124999,4,499996,,40,offer specific
+5,,,122,Powermax Adjustable Dumbbell Set,2023-04-12,4,14999,1,14999,,10,offer specific
+6,,,122,Nike Air Max Sneakers,2023-05-31,5,12999,9,116991,,25,offer specific
+9,,,121,Tissot PRX Watch,2023-03-10,3,49500,4,198000,,50,offer specific
+6,,,121,Dell XPS 13 Laptop,2023-05-11,2,124999,6,749994,,20,customer_type
+18,,,122,Tissot PRX Watch,2023-07-04,5,49500,6,297000,,25,Frequent Buyer
+16,,,123,Dyson V12 Vacuum Cleaner,2023-04-29,9,65900,10,659000,,75,Looker
+18,,,122,Nike Air Max Sneakers,2023-07-06,4,12999,3,38997,,50,offer specific
+9,,,121,Prestige Induction Cooktop,2023-07-13,1,4990,2,9980,,20,offer specific
+9,,,121,Cosco Resistance Band,2023-05-14,2,350,4,1400,,25,offer specific
+1,,,123,Cosco Resistance Band,2023-04-30,7,350,10,3500,,75,offer specific
+12,,,123,Tissot PRX Watch,2023-06-07,7,49500,1,49500,,40,offer specific
+2,,,122,Sony WH-1000XM5 Headphones,2023-05-24,4,29990,10,299900,,10,offer specific
+8,,,123,Cosco Resistance Band,2023-07-07,7,350,3,1050,,25,offer specific
+1,,,121,Cosco Resistance Band,2023-05-13,1,350,9,3150,,50,offer specific
+19,,,123,Apple Watch Series 9,2023-03-18,8,45900,9,413100,,20,offer specific
+14,,,122,Davidoff Coffee Beans,2023-04-30,6,1100,1,1100,,25,offer specific
+5,,,123,Samsung 55-inch 4K QLED TV,2023-04-24,7,84990,3,254970,,50,offer specific
+11,,,123,Nike Air Max Sneakers,2023-03-20,7,12999,1,12999,,20,offer specific
+14,,,123,Samsung 55-inch 4K QLED TV,2023-03-05,8,84990,9,764910,,25,offer specific
+16,,,122,Dyson Supersonic Hair Dryer,2023-07-09,5,32900,2,65800,,75,offer specific
+11,,,123,Clinique Moisture Surge Cream,2023-05-18,7,2700,2,5400,,40,customer_type
+3,,,123,Apple iPhone 14 Pro,2023-07-08,8,134999,2,269998,,10,Frequent Buyer
+20,,,123,Apple iPhone 14 Pro,2023-06-06,8,134999,4,539996,,25,Looker
+2,,,122,Dyson Supersonic Hair Dryer,2023-04-07,4,32900,9,296100,,50,offer specific
+18,,,123,Powermax Adjustable Dumbbell Set,2023-05-11,8,14999,3,44997,,20,offer specific
+4,,,121,Dyson Supersonic Hair Dryer,2023-04-17,1,32900,8,263200,,25,offer specific
+1,,,122,Tissot PRX Watch,2023-05-29,5,49500,1,49500,,75,offer specific
+11,,,122,Dyson V12 Vacuum Cleaner,2023-04-01,6,65900,7,461300,,50,offer specific
+19,,,122,Ray-Ban Aviator Sunglasses,2023-04-08,5,9990,7,69930,,20,offer specific
+12,,,122,Powermax Adjustable Dumbbell Set,2023-06-08,6,14999,6,89994,,25,offer specific
+3,,,122,Apple Watch Series 9,2023-07-26,5,45900,9,413100,,75,offer specific
+6,,,122,Ray-Ban Aviator Sunglasses,2023-05-17,5,9990,10,99900,,40,offer specific
+19,,,121,Apple iPhone 14 Pro,2023-04-27,2,134999,1,134999,,10,offer specific
+13,,,121,India Gate Basmati Rice,2023-06-05,3,700,7,4900,,25,offer specific
+9,,,122,Apple iPhone 14 Pro,2023-05-06,4,134999,2,269998,,50,offer specific
+19,,,121,Powermax Adjustable Dumbbell Set,2023-06-21,1,14999,2,29998,,20,offer specific
+3,,,122,Ray-Ban Aviator Sunglasses,2023-03-04,5,9990,6,59940,,25,offer specific
+7,,,123,Tissot PRX Watch,2023-06-20,8,49500,4,198000,,75,customer_type
+15,,,122,Cosco Resistance Band,2023-03-29,5,350,3,1050,,50,Frequent Buyer
+16,,,122,Sony WH-1000XM5 Headphones,2023-04-25,4,29990,4,119960,,20,Looker
+20,,,122,Sony WH-1000XM5 Headphones,2023-06-29,5,29990,7,209930,,25,offer specific
+14,,,123,Dyson Supersonic Hair Dryer,2023-07-18,8,32900,5,164500,,75,offer specific
+19,,,122,Prestige Induction Cooktop,2023-07-23,4,4990,7,34930,,40,offer specific
+10,,,122,Samsung 55-inch 4K QLED TV,2023-06-03,5,84990,10,849900,,10,offer specific
+12,,,123,Powermax Adjustable Dumbbell Set,2023-07-29,7,14999,7,104993,,25,offer specific
+6,,,121,Clinique Moisture Surge Cream,2023-08-14,3,2700,7,18900,,50,offer specific
+7,,,121,Dyson V12 Vacuum Cleaner,2023-07-22,3,65900,5,329500,,20,offer specific
+4,,,121,Davidoff Coffee Beans,2023-03-03,1,1100,1,1100,,25,offer specific
+11,,,121,Davidoff Coffee Beans,2023-07-26,1,1100,10,11000,,50,offer specific
+18,,,122,Cosco Resistance Band,2023-04-24,5,350,2,700,,20,offer specific
+2,,,123,Sony WH-1000XM5 Headphones,2023-08-01,8,29990,9,269910,,25,offer specific
+4,,,122,Apple iPhone 14 Pro,2023-08-04,5,134999,10,1349990,,75,offer specific
+12,,,123,India Gate Basmati Rice,2023-03-30,7,700,2,1400,,40,offer specific
+13,,,122,Dell XPS 13 Laptop,2023-03-20,6,124999,10,1249990,,10,offer specific
+12,,,121,Nike Air Max Sneakers,2023-05-10,1,12999,9,116991,,25,customer_type
+15,,,121,Dell XPS 13 Laptop,2023-06-01,1,124999,10,1249990,,50,Frequent Buyer
+19,,,123,Samsung 55-inch 4K QLED TV,2023-03-28,9,84990,3,254970,,20,Looker
+2,,,122,Davidoff Coffee Beans,2023-06-03,5,1100,9,9900,,25,offer specific
+12,,,122,Samsung 55-inch 4K QLED TV,2023-06-02,4,84990,3,254970,,75,offer specific
+2,,,122,Apple Watch Series 9,2023-05-29,5,45900,9,413100,,50,offer specific
+2,,,123,Davidoff Coffee Beans,2023-03-22,7,1100,4,4400,,20,offer specific
+3,,,123,Powermax Adjustable Dumbbell Set,2023-07-31,7,14999,5,74995,,25,offer specific
+14,,,122,Clinique Moisture Surge Cream,2023-05-03,4,2700,4,10800,,75,offer specific
+10,,,121,Cosco Resistance Band,2023-04-24,3,350,9,3150,,40,offer specific
+8,,,123,Ray-Ban Aviator Sunglasses,2023-06-01,8,9990,8,79920,,10,offer specific
+7,,,123,Dyson V12 Vacuum Cleaner,2023-06-28,9,65900,3,197700,,25,offer specific
+5,,,122,Tissot PRX Watch,2023-06-03,5,49500,9,445500,,50,offer specific
+10,,,122,Clinique Moisture Surge Cream,2023-04-23,5,2700,1,2700,,20,offer specific
+12,,,121,Tissot PRX Watch,2023-08-14,2,49500,6,297000,,25,offer specific
+13,,,123,Nike Air Max Sneakers,2023-05-30,9,12999,9,116991,,75,offer specific
+3,,,123,Dyson Supersonic Hair Dryer,2023-04-12,7,32900,4,131600,,50,offer specific
+20,,,121,Dyson Supersonic Hair Dryer,2023-08-19,1,32900,6,197400,,20,customer_type
+17,,,123,India Gate Basmati Rice,2023-07-02,8,700,5,3500,,25,Frequent Buyer
+12,,,123,Ray-Ban Aviator Sunglasses,2023-03-19,9,9990,8,79920,,75,Looker
+19,,,121,Ray-Ban Aviator Sunglasses,2023-06-09,1,9990,2,19980,,40,offer specific
+2,,,122,Cosco Resistance Band,2023-06-22,4,350,5,1750,,10,offer specific
+19,,,123,Apple Watch Series 9,2023-06-03,8,45900,1,45900,,25,offer specific
+3,,,121,India Gate Basmati Rice,2023-06-20,3,700,7,4900,,50,offer specific
+13,,,121,Powermax Adjustable Dumbbell Set,2023-04-26,3,14999,5,74995,,20,offer specific
+17,,,121,Dell XPS 13 Laptop,2023-03-31,1,124999,8,999992,,25,offer specific
+6,,,121,Powermax Adjustable Dumbbell Set,2023-04-10,1,14999,7,104993,,50,offer specific
+13,,,121,Cosco Resistance Band,2023-07-11,1,350,2,700,,20,offer specific
+1,,,123,Sony WH-1000XM5 Headphones,2023-08-14,8,29990,6,179940,,25,offer specific
+11,,,121,Clinique Moisture Surge Cream,2023-03-30,1,2700,3,8100,,75,offer specific
+12,,,123,Apple iPhone 14 Pro,2023-05-16,8,134999,2,269998,,40,offer specific
+1,,,121,Tissot PRX Watch,2023-07-02,3,49500,3,148500,,10,offer specific
+9,,,121,Dyson Supersonic Hair Dryer,2023-03-30,1,32900,9,296100,,25,offer specific
+17,,,122,Dyson Supersonic Hair Dryer,2023-05-22,4,32900,7,230300,,50,offer specific
+14,,,121,Prestige Induction Cooktop,2023-05-20,3,4990,8,39920,,20,customer_type
+5,,,121,Samsung 55-inch 4K QLED TV,2023-05-12,2,84990,1,84990,,25,Frequent Buyer
+16,,,122,Powermax Adjustable Dumbbell Set,2023-05-22,5,14999,5,74995,,75,Looker
+3,,,121,Dyson V12 Vacuum Cleaner,2023-05-22,1,65900,4,263600,,50,offer specific
+8,,,122,Samsung 55-inch 4K QLED TV,2023-05-21,6,84990,4,339960,,20,offer specific
+5,,,122,Davidoff Coffee Beans,2023-06-16,5,1100,4,4400,,25,offer specific
+15,,,121,Dell XPS 13 Laptop,2023-03-17,3,124999,8,999992,,75,offer specific
+17,,,122,Nike Air Max Sneakers,2023-06-17,5,12999,4,51996,,40,offer specific
+3,,,123,Cosco Resistance Band,2023-05-05,9,350,7,2450,,10,offer specific
+19,,,123,Samsung 55-inch 4K QLED TV,2023-08-04,8,84990,5,424950,,25,offer specific
+17,,,122,Nike Air Max Sneakers,2023-04-21,6,12999,5,64995,,50,offer specific
+9,,,122,Dyson V12 Vacuum Cleaner,2023-03-20,5,65900,7,461300,,20,offer specific
+10,,,121,Davidoff Coffee Beans,2023-04-11,1,1100,5,5500,,25,offer specific
+10,,,122,Clinique Moisture Surge Cream,2023-06-30,4,2700,5,13500,,75,offer specific
+16,,,122,Apple Watch Series 9,2023-03-27,4,45900,10,459000,,50,offer specific
+5,,,123,Samsung 55-inch 4K QLED TV,2023-05-14,9,84990,7,594930,,20,offer specific
+9,,,121,Apple iPhone 14 Pro,2023-03-23,1,134999,6,809994,,25,offer specific
+2,,,122,Clinique Moisture Surge Cream,2023-07-09,6,2700,5,13500,,75,customer_type
+1,,,123,Nike Air Max Sneakers,2023-06-20,8,12999,1,12999,,40,Frequent Buyer
+9,,,123,Cosco Resistance Band,2023-07-07,9,350,9,3150,,10,Looker
+16,,,122,Tissot PRX Watch,2023-07-01,4,49500,10,495000,,25,offer specific
+11,,,121,Ray-Ban Aviator Sunglasses,2023-07-02,2,9990,2,19980,,50,offer specific
+16,,,122,Ray-Ban Aviator Sunglasses,2023-08-09,4,9990,3,29970,,20,offer specific
+1,,,123,India Gate Basmati Rice,2023-03-11,9,700,5,3500,,25,offer specific
+15,,,122,Dyson Supersonic Hair Dryer,2023-07-02,4,32900,6,197400,,50,offer specific
+18,,,123,Dell XPS 13 Laptop,2023-03-22,9,124999,1,124999,,20,offer specific
+16,,,123,Sony WH-1000XM5 Headphones,2023-06-17,7,29990,2,59980,,25,offer specific
+6,,,123,Apple Watch Series 9,2023-07-08,7,45900,1,45900,,75,offer specific
+3,,,122,Sony WH-1000XM5 Headphones,2023-05-13,6,29990,4,119960,,40,offer specific
+17,,,122,Powermax Adjustable Dumbbell Set,2023-06-21,6,14999,1,14999,,10,offer specific
+9,,,122,Clinique Moisture Surge Cream,2023-08-14,4,2700,9,24300,,25,offer specific
+1,,,123,Dyson Supersonic Hair Dryer,2023-03-23,7,32900,3,98700,,50,offer specific
+3,,,123,Dyson Supersonic Hair Dryer,2023-04-25,9,32900,1,32900,,20,offer specific
+8,,,123,Powermax Adjustable Dumbbell Set,2023-05-04,8,14999,6,89994,,25,offer specific
+15,,,123,Tissot PRX Watch,2023-04-07,7,49500,3,148500,,75,customer_type
+13,,,122,Tissot PRX Watch,2023-05-26,6,49500,1,49500,,50,Frequent Buyer
+8,,,121,Powermax Adjustable Dumbbell Set,2023-07-22,3,14999,4,59996,,20,Looker
+5,,,122,Dell XPS 13 Laptop,2023-07-17,5,124999,2,249998,,25,offer specific
+15,,,122,Dell XPS 13 Laptop,2023-03-21,5,124999,5,624995,,75,offer specific
+18,,,122,Sony WH-1000XM5 Headphones,2023-07-30,4,29990,10,299900,,40,offer specific
+2,,,123,Cosco Resistance Band,2023-05-23,8,350,6,2100,,10,offer specific
+20,,,122,Dell XPS 13 Laptop,2023-03-10,5,124999,7,874993,,25,offer specific
+1,,,122,Powermax Adjustable Dumbbell Set,2023-05-11,6,14999,9,134991,,50,offer specific
+5,,,122,Powermax Adjustable Dumbbell Set,2023-07-09,4,14999,10,149990,,20,offer specific
+20,,,121,Samsung 55-inch 4K QLED TV,2023-07-27,1,84990,6,509940,,25,offer specific
+3,,,121,Apple iPhone 14 Pro,2023-08-03,1,134999,7,944993,,75,offer specific
+15,,,121,Ray-Ban Aviator Sunglasses,2023-08-01,3,9990,2,19980,,50,offer specific
+19,,,122,Samsung 55-inch 4K QLED TV,2023-03-28,4,84990,10,849900,,20,offer specific
+17,,,123,Ray-Ban Aviator Sunglasses,2023-05-05,8,9990,8,79920,,25,offer specific
+2,,,121,Dell XPS 13 Laptop,2023-08-17,1,124999,5,624995,,75,offer specific
+9,,,123,Samsung 55-inch 4K QLED TV,2023-03-20,7,84990,4,339960,,40,offer specific
+10,,,121,Davidoff Coffee Beans,2023-03-11,2,1100,9,9900,,10,customer_type
+6,,,122,Prestige Induction Cooktop,2023-06-24,6,4990,10,49900,,25,Frequent Buyer
+18,,,123,Powermax Adjustable Dumbbell Set,2023-05-22,8,14999,2,29998,,50,Looker
+12,,,121,India Gate Basmati Rice,2023-05-13,2,700,2,1400,,20,offer specific
+17,,,122,Dell XPS 13 Laptop,2023-06-20,5,124999,9,1124991,,25,offer specific
+11,,,121,Clinique Moisture Surge Cream,2023-05-18,1,2700,9,24300,,50,offer specific
+20,,,121,Dyson V12 Vacuum Cleaner,2023-04-21,2,65900,9,593100,,20,offer specific
+1,,,121,Dell XPS 13 Laptop,2023-06-12,2,124999,7,874993,,25,offer specific
+14,,,123,Dyson V12 Vacuum Cleaner,2023-03-28,8,65900,2,131800,,75,offer specific
+4,,,123,Amul 85% Dark Chocolate,2023-04-19,8,450,10,4500,,40,offer specific
+5,,,122,Sony WH-1000XM5 Headphones,2023-03-06,4,29990,6,179940,,10,offer specific
+14,,,121,Clinique Moisture Surge Cream,2023-04-27,1,2700,4,10800,,25,offer specific
+7,,,122,Powermax Adjustable Dumbbell Set,2023-07-18,5,14999,10,149990,,50,offer specific
+1,,,122,Prestige Induction Cooktop,2023-04-23,4,4990,5,24950,,20,offer specific
+16,,,121,Davidoff Coffee Beans,2023-08-09,3,1100,9,9900,,25,offer specific
+5,,,121,Dyson V12 Vacuum Cleaner,2023-05-12,2,65900,8,527200,,75,offer specific
+4,,,122,Dyson V12 Vacuum Cleaner,2023-03-24,5,65900,7,461300,,50,offer specific
+6,,,122,Amul 85% Dark Chocolate,2023-04-21,5,450,6,2700,,20,customer_type
+16,,,123,Dyson V12 Vacuum Cleaner,2023-06-01,7,65900,7,461300,,25,Frequent Buyer
+5,,,123,Dyson V12 Vacuum Cleaner,2023-06-23,8,65900,2,131800,,75,Looker
+18,,,123,Sony WH-1000XM5 Headphones,2023-03-08,9,29990,6,179940,,40,offer specific
+2,,,121,Apple iPhone 14 Pro,2023-03-03,2,134999,7,944993,,10,offer specific
+8,,,123,Ray-Ban Aviator Sunglasses,2023-05-05,9,9990,8,79920,,25,offer specific
+11,,,121,Cosco Resistance Band,2023-08-11,3,350,2,700,,50,offer specific
+3,,,122,Apple Watch Series 9,2023-08-14,6,45900,9,413100,,20,offer specific

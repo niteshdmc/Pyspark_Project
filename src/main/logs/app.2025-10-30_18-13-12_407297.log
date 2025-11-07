@@ -1,0 +1,729 @@
+2025-10-30 18:13:12.406 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x000001FEE519DBE0>
+2025-10-30 18:13:12.407 | INFO     | main2:<module>:114 | Spark Session Created
+2025-10-30 18:13:12.493 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:13:12.502 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:13:12.503 | INFO     | mysql_crud_operations:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:13:12.503 | INFO     | main2:main:38 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}]
+2025-10-30 18:13:12.503 | INFO     | main2:main:48 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:13:13.721 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:13:13.721 | INFO     | main2:main:63 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 18:13:13.724 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:13:13.728 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:13:13.729 | INFO     | main2:main:85 | data in file: []
+2025-10-30 18:13:13.729 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:13:19.510 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:13:19.519 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:13:19.519 | INFO     | mysql_crud_operations:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:13:19.519 | INFO     | main2:main:38 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}]
+2025-10-30 18:13:19.519 | INFO     | main2:main:48 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:13:20.619 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:13:20.619 | INFO     | main2:main:63 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 18:13:20.622 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:13:20.628 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:13:20.629 | INFO     | main2:main:85 | data in file: []
+2025-10-30 18:13:20.629 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:32:20.476 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:32:20.485 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:32:20.485 | INFO     | mysql_crud_operations:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:32:20.485 | INFO     | main2:main:45 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}]
+2025-10-30 18:32:20.485 | INFO     | main2:main:55 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:32:21.653 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:32:21.653 | INFO     | main2:main:70 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 18:32:21.655 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:32:21.659 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:32:21.660 | INFO     | main2:main:102 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 18:32:30.063 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x000001E5AD4712B0>
+2025-10-30 18:32:30.063 | INFO     | main2:main:107 | Spark Session Created
+2025-10-30 18:32:30.064 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:34:07.333 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:34:07.341 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:34:07.342 | INFO     | mysql_crud_operations:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:34:07.342 | INFO     | main:main:43 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}]
+2025-10-30 18:34:07.342 | INFO     | main:main:53 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:34:08.528 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:34:08.528 | INFO     | main:main:68 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 18:34:08.531 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:34:08.537 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:34:08.537 | INFO     | main:main:100 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 18:34:16.945 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x000002D11BB4D2B0>
+2025-10-30 18:34:16.945 | INFO     | main:main:105 | Spark Session Created
+2025-10-30 18:34:16.945 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:53:34.819 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:53:34.828 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:53:34.829 | INFO     | read_s3_metadata:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:53:34.829 | INFO     | main:main:53 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:53:36.044 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:53:36.044 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-sales-project/sales_data/
+2025-10-30 18:53:36.044 | ERROR    | main:main:66 | Since No Files found, Exiting...
+2025-10-30 18:53:36.045 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:54:35.665 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:54:35.673 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:54:35.674 | INFO     | read_s3_metadata:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:54:35.674 | INFO     | main:main:53 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 18:54:36.909 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:54:36.911 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:54:36.916 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:54:36.917 | INFO     | main:main:99 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 18:54:36.917 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:55:57.685 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:55:57.694 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:55:57.695 | INFO     | read_s3_metadata:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:55:58.885 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:55:58.888 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:55:58.893 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:55:58.894 | INFO     | main:main:100 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 18:56:07.390 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x00000208EB96D2B0>
+2025-10-30 18:56:07.390 | INFO     | main:main:105 | Spark Session Created
+2025-10-30 18:56:07.390 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 18:56:08.274 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:56:08.283 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:56:08.284 | INFO     | read_s3_metadata:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 18:56:09.437 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 18:56:09.440 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 18:56:09.444 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 18:56:09.444 | INFO     | main:main:100 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 18:56:09.444 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 19:01:33.971 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:01:33.980 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:01:33.981 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:01:33.984 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:01:33.985 | INFO     | read_s3_metadata:get_bucket_details:21 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 19:01:35.149 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 19:01:35.153 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:01:35.161 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:01:35.162 | INFO     | main:main:105 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 19:01:35.162 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 19:03:54.955 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:03:54.964 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:03:54.964 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 19:03:56.114 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 19:03:56.116 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:03:56.120 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:03:56.120 | INFO     | main:main:105 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 19:06:15.618 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:06:15.627 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:06:15.627 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 19:06:16.815 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 19:06:16.818 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:06:16.822 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:06:16.822 | INFO     | main:main:105 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 19:06:16.823 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 19:07:54.004 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 19:07:54.018 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 19:07:54.019 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 19:07:55.320 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 19:07:55.321 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 19:07:55.322 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:13:26.142 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:13:26.151 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:13:26.152 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active bucket(s) for environment: dev
+2025-10-30 21:13:27.977 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:13:27.977 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:13:27.978 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:13:36.354 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x000001DD855A52B0>
+2025-10-30 21:13:36.354 | INFO     | main:main:110 | Spark Session Created
+2025-10-30 21:13:37.067 | ERROR    | main:main:119 | Job failed, exited with error: [PATH_NOT_FOUND] Path does not exist: file:/Z:/Projects/relmart-project/src/main/transformations/jobs/sales_data/2025_10_30/Customers.csv. SQLSTATE: 42K03
+2025-10-30 21:13:37.068 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:28:10.950 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:28:10.962 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:28:10.963 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 21:28:12.252 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:28:12.252 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:28:12.253 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:28:12.256 | ERROR    | aws_read:list_files:41 | Got this error : %s
+2025-10-30 21:28:12.256 | ERROR    | main:main:119 | Job failed, exited with error: Parameter validation failed:
+Invalid bucket name "relmart-sales-project ": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:(s3|s3-object-lambda):[a-z\-0-9]*:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-.]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+2025-10-30 21:28:12.256 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:28:16.387 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:28:16.396 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:28:16.396 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 21:28:17.831 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:28:17.832 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:28:17.833 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:28:17.836 | ERROR    | aws_read:list_files:41 | Got this error : %s
+2025-10-30 21:28:17.836 | ERROR    | main:main:119 | Job failed, exited with error: Parameter validation failed:
+Invalid bucket name "relmart-sales-project ": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:(s3|s3-object-lambda):[a-z\-0-9]*:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-.]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+2025-10-30 21:28:17.837 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:34:20.438 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:34:20.447 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:34:20.447 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 21:34:21.647 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:34:21.647 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:34:21.647 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:34:21.966 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data2/
+2025-10-30 21:34:21.966 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-sales-project/sales_data2/
+2025-10-30 21:34:21.966 | ERROR    | main:main:72 | No files found in [] 
+2025-10-30 21:34:21.968 | ERROR    | aws_read:list_files:41 | Got this error : %s
+2025-10-30 21:34:21.968 | ERROR    | main:main:119 | Job failed, exited with error: Parameter validation failed:
+Invalid bucket name "relmart-project-test ": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:(s3|s3-object-lambda):[a-z\-0-9]*:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-.]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+2025-10-30 21:34:21.969 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:36:57.073 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:36:57.082 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:36:57.083 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active bucket(s) for environment: dev
+2025-10-30 21:36:58.216 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:36:58.216 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:36:58.218 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:36:58.220 | ERROR    | aws_read:list_files:41 | Got this error : %s
+2025-10-30 21:36:58.220 | ERROR    | main:main:119 | Job failed, exited with error: Parameter validation failed:
+Invalid bucket name "relmart-project-test ": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:(s3|s3-object-lambda):[a-z\-0-9]*:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-.]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+2025-10-30 21:36:58.220 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:37:51.749 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:37:51.758 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:37:51.759 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active bucket(s) for environment: dev
+2025-10-30 21:37:52.955 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:37:52.955 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:37:52.957 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:37:54.142 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 21:37:54.143 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 21:37:54.143 | ERROR    | main:main:72 | No files found in [] 
+2025-10-30 21:37:54.145 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:40:14.836 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:40:14.845 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:40:14.845 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active bucket(s) for environment: dev
+2025-10-30 21:40:14.846 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 21:40:15.989 | INFO     | aws_read:list_files:11 | {'ResponseMetadata': {'RequestId': '9RVXGB9AG4NQ1YNF', 'HostId': 'OFmXKj2I0DcIL8j+6hVczxfIwnCJOp7Q/XD8WOERgkVD6OGS2Df44S7PsWNep62HB09i7MvOa/tZ6qOtkZ8gdFOc7d5JuSuW5EH4APH6Ng0=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'OFmXKj2I0DcIL8j+6hVczxfIwnCJOp7Q/XD8WOERgkVD6OGS2Df44S7PsWNep62HB09i7MvOa/tZ6qOtkZ8gdFOc7d5JuSuW5EH4APH6Ng0=', 'x-amz-request-id': '9RVXGB9AG4NQ1YNF', 'date': 'Thu, 30 Oct 2025 16:10:17 GMT', 'x-amz-bucket-region': 'us-east-1', 'content-type': 'application/xml', 'transfer-encoding': 'chunked', 'server': 'AmazonS3'}, 'RetryAttempts': 0}, 'IsTruncated': False, 'Contents': [{'Key': 'sales_data/', 'LastModified': datetime.datetime(2025, 10, 29, 10, 37, 6, tzinfo=tzutc()), 'ETag': '"d41d8cd98f00b204e9800998ecf8427e"', 'ChecksumAlgorithm': ['CRC64NVME'], 'ChecksumType': 'FULL_OBJECT', 'Size': 0, 'StorageClass': 'STANDARD'}, {'Key': 'sales_data/2025_10_30/Customers.csv', 'LastModified': datetime.datetime(2025, 10, 30, 13, 24, 32, tzinfo=tzutc()), 'ETag': '"3e002ca38eb7c94d3cd3a126d244e5c4"', 'ChecksumAlgorithm': ['CRC32'], 'ChecksumType': 'FULL_OBJECT', 'Size': 488, 'StorageClass': 'STANDARD'}, {'Key': 'sales_data/2025_10_30/Working_Employees.csv', 'LastModified': datetime.datetime(2025, 10, 30, 13, 24, 33, tzinfo=tzutc()), 'ETag': '"7057164eb9e0fade365e96cf138d5077"', 'ChecksumAlgorithm': ['CRC32'], 'ChecksumType': 'FULL_OBJECT', 'Size': 1022, 'StorageClass': 'STANDARD'}, {'Key': 'sales_data/2025_10_30/people.json', 'LastModified': datetime.datetime(2025, 10, 30, 13, 24, 33, tzinfo=tzutc()), 'ETag': '"052bcc20381ecd8c10daf61ab806ba81"', 'ChecksumAlgorithm': ['CRC32'], 'ChecksumType': 'FULL_OBJECT', 'Size': 257, 'StorageClass': 'STANDARD'}], 'Name': 'relmart-sales-project', 'Prefix': 'sales_data/', 'MaxKeys': 1000, 'EncodingType': 'url', 'KeyCount': 4}
+2025-10-30 21:40:15.990 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:40:15.990 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:40:15.991 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:40:15.991 | INFO     | main:main:59 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 21:40:17.562 | INFO     | aws_read:list_files:11 | {'ResponseMetadata': {'RequestId': '1JDYJYXJ3FG9RRNF', 'HostId': 'VuYQMPprTd4PbmJJa7gQcZUBki/DKXkc0umGZtT0nJDBBIhqhBIkl+DeuvqpL295ubAwj3qOhdWCd9duWQyr4ueMx5LiVr8C6MlGB1YEDW8=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'VuYQMPprTd4PbmJJa7gQcZUBki/DKXkc0umGZtT0nJDBBIhqhBIkl+DeuvqpL295ubAwj3qOhdWCd9duWQyr4ueMx5LiVr8C6MlGB1YEDW8=', 'x-amz-request-id': '1JDYJYXJ3FG9RRNF', 'date': 'Thu, 30 Oct 2025 16:10:18 GMT', 'x-amz-bucket-region': 'us-east-1', 'content-type': 'application/xml', 'transfer-encoding': 'chunked', 'server': 'AmazonS3'}, 'RetryAttempts': 0}, 'IsTruncated': False, 'Contents': [{'Key': 'sales_test/', 'LastModified': datetime.datetime(2025, 10, 30, 15, 56, 27, tzinfo=tzutc()), 'ETag': '"d41d8cd98f00b204e9800998ecf8427e"', 'ChecksumAlgorithm': ['CRC64NVME'], 'ChecksumType': 'FULL_OBJECT', 'Size': 0, 'StorageClass': 'STANDARD'}], 'Name': 'relmart-project-test', 'Prefix': 'sales_test/', 'MaxKeys': 1000, 'EncodingType': 'url', 'KeyCount': 1}
+2025-10-30 21:40:17.563 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 21:40:17.563 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 21:40:17.563 | ERROR    | main:main:72 | No files found in [] 
+2025-10-30 21:40:17.565 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:41:14.105 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:41:14.113 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:41:14.114 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active bucket(s) for environment: dev
+2025-10-30 21:41:14.114 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 21:41:15.334 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:41:15.335 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:41:15.336 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:41:15.337 | INFO     | main:main:59 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 21:41:16.651 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 21:41:16.651 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 21:41:16.652 | ERROR    | main:main:72 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-30 21:41:16.654 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:42:57.932 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:42:57.941 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:42:57.942 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 21:42:57.942 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 21:42:59.110 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:42:59.111 | INFO     | main:main:74 | List of absolute file paths for CSVs found on S3 bucket: ['s3://relmart-sales-project/sales_data/2025_10_30/Customers.csv', 's3://relmart-sales-project/sales_data/2025_10_30/Working_Employees.csv']
+2025-10-30 21:42:59.112 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:42:59.113 | INFO     | main:main:59 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 21:43:00.358 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 21:43:00.358 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 21:43:00.358 | ERROR    | main:main:72 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-30 21:43:00.360 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data2/
+2025-10-30 21:43:00.683 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data2/
+2025-10-30 21:43:00.683 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-sales-project/sales_data2/
+2025-10-30 21:43:00.683 | ERROR    | main:main:72 | No files found in relmart-sales-project, folder: sales_data2/ 
+2025-10-30 21:43:00.684 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 21:48:16.728 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 21:48:16.737 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 21:48:16.738 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 21:48:16.738 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 21:48:18.090 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 21:48:18.092 | INFO     | main:main:103 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 21:48:18.092 | INFO     | main:main:59 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 21:48:20.053 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 21:48:20.053 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 21:48:20.053 | ERROR    | main:main:73 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-30 21:48:20.054 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data2/
+2025-10-30 21:48:20.478 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data2/
+2025-10-30 21:48:20.478 | WARNING  | aws_read:list_files:35 | No CSV files present in relmart-sales-project/sales_data2/
+2025-10-30 21:48:20.478 | ERROR    | main:main:73 | No files found in relmart-sales-project, folder: sales_data2/ 
+2025-10-30 21:48:20.479 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 22:48:53.478 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 22:48:53.487 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 22:48:53.488 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 22:48:53.488 | INFO     | main:main:59 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 22:48:54.629 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 22:48:54.632 | INFO     | main:main:101 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 22:48:54.632 | INFO     | main:main:59 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 22:48:55.814 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 22:48:55.814 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 22:48:55.814 | ERROR    | main:main:73 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-30 22:48:55.816 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 22:52:44.399 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 22:52:44.408 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 22:52:44.409 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 22:52:44.409 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 22:52:45.600 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 22:52:45.603 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 22:52:53.988 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x0000021509A352B0>
+2025-10-30 22:52:53.988 | INFO     | main:main:108 | Spark Session Created
+2025-10-30 22:52:54.579 | ERROR    | main:main:117 | Job failed, exited with error: An error occurred while calling o33.csv.
+: org.apache.hadoop.fs.UnsupportedFileSystemException: No FileSystem for scheme "s3"
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3581)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3612)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:172)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3716)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3667)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:557)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$1(DataSource.scala:777)
+	at scala.collection.immutable.List.map(List.scala:247)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.execution.datasources.DataSource$.checkAndGlobPathIfNecessary(DataSource.scala:775)
+	at org.apache.spark.sql.execution.datasources.DataSource.checkAndGlobPathIfNecessary(DataSource.scala:575)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:419)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)
+	at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)
+	at org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:109)
+	at org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:58)
+	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:392)
+	at org.apache.spark.sql.classic.DataFrameReader.csv(DataFrameReader.scala:259)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:75)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3581)
+		at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3612)
+		at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:172)
+		at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3716)
+		at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3667)
+		at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:557)
+		at org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)
+		at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$1(DataSource.scala:777)
+		at scala.collection.immutable.List.map(List.scala:247)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.execution.datasources.DataSource$.checkAndGlobPathIfNecessary(DataSource.scala:775)
+		at org.apache.spark.sql.execution.datasources.DataSource.checkAndGlobPathIfNecessary(DataSource.scala:575)
+		at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:419)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)
+		at scala.Option.getOrElse(Option.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+		at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+		at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+		at scala.collection.immutable.List.foldLeft(List.scala:79)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)
+		at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 22 more
+
+2025-10-30 22:52:54.583 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-30 22:53:24.953 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-30 22:53:24.961 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-30 22:53:24.962 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-30 22:53:24.962 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-30 22:53:26.123 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-30 22:53:26.123 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv']
+2025-10-30 22:53:34.546 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x00000230736D52B0>
+2025-10-30 22:53:34.546 | INFO     | main:main:108 | Spark Session Created
+2025-10-30 22:53:34.546 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-30 22:53:35.656 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-30 22:53:35.656 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-30 22:53:35.657 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-30 22:53:35.659 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 14:20:58.865 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 14:20:58.889 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 14:20:58.894 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 14:20:58.895 | INFO     | main:main:58 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 14:21:00.012 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 14:21:00.015 | INFO     | main:main:100 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 14:21:00.015 | INFO     | main:main:58 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 14:21:01.163 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 14:21:01.163 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 14:21:01.163 | ERROR    | main:main:72 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 14:21:01.166 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 14:21:53.770 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 14:21:53.778 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 14:21:53.779 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 14:21:53.779 | INFO     | main:main:57 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 14:21:54.959 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 14:21:54.960 | INFO     | main:main:99 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 14:21:54.960 | INFO     | main:main:57 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 14:21:56.127 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 14:21:56.127 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 14:21:56.127 | ERROR    | main:main:71 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 14:21:56.129 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 14:35:48.698 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 14:35:48.707 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 14:35:48.708 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 14:35:48.708 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 14:35:49.966 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 14:35:49.968 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 14:35:49.968 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 14:35:51.114 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 14:35:51.114 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 14:35:51.114 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 14:35:51.115 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 14:47:26.583 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 14:47:26.616 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 14:47:26.622 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 14:47:26.622 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 14:47:27.797 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 14:47:27.804 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 14:47:27.804 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 14:47:28.938 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 14:47:28.939 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 14:47:28.939 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 14:47:28.941 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 14:56:20.357 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 14:56:20.367 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 14:56:20.367 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 14:56:20.368 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 14:56:21.497 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 14:56:21.498 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 14:56:21.498 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 14:56:22.709 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 14:56:22.709 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 14:56:22.709 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 14:56:22.709 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 16:48:17.388 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 16:48:17.418 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 16:48:17.424 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 16:48:17.424 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 16:48:18.618 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 16:48:18.623 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 16:48:22.567 | INFO     | spark_session:spark_session:14 | spark session <pyspark.sql.session.SparkSession object at 0x00000128BFA1DD30>
+2025-10-31 16:48:22.567 | INFO     | main:main:108 | Spark Session Created
+2025-10-31 16:48:23.277 | ERROR    | main:main:143 | Job failed, exited with error: An error occurred while calling o34.load.
+: org.apache.hadoop.fs.UnsupportedFileSystemException: No FileSystem for scheme "s3"
+	at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3581)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3612)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:172)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3716)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3667)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:557)
+	at org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$1(DataSource.scala:777)
+	at scala.collection.immutable.List.map(List.scala:247)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.execution.datasources.DataSource$.checkAndGlobPathIfNecessary(DataSource.scala:775)
+	at org.apache.spark.sql.execution.datasources.DataSource.checkAndGlobPathIfNecessary(DataSource.scala:575)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:419)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)
+	at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)
+	at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)
+	at org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:109)
+	at org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:75)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:3581)
+		at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3612)
+		at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:172)
+		at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3716)
+		at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3667)
+		at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:557)
+		at org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)
+		at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$1(DataSource.scala:777)
+		at scala.collection.immutable.List.map(List.scala:247)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.execution.datasources.DataSource$.checkAndGlobPathIfNecessary(DataSource.scala:775)
+		at org.apache.spark.sql.execution.datasources.DataSource.checkAndGlobPathIfNecessary(DataSource.scala:575)
+		at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:419)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)
+		at scala.Option.getOrElse(Option.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)
+		at org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+		at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+		at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+		at scala.collection.immutable.List.foldLeft(List.scala:79)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)
+		at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 20 more
+
+2025-10-31 16:48:23.283 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:32:16.184 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:32:16.193 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:32:16.194 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 17:32:16.194 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:32:17.350 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:32:17.351 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 17:32:17.351 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 17:32:18.589 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 17:32:18.589 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 17:32:18.589 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 17:32:18.590 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:35:43.050 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:35:43.059 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:35:43.060 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 17:35:43.060 | INFO     | main:main:46 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}, {'bucket_name': 'relmart-project-test', 'folder_path': 'sales_test/'}, {'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data2/'}]
+2025-10-31 17:35:43.060 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:35:44.210 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:35:44.211 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 17:35:44.212 | ERROR    | spark_session:spark_session:32 | Initiating Spark session failed: name 'decrypt' is not defined
+2025-10-31 17:35:44.212 | ERROR    | main:main:144 | Job failed, exited with error: name 'decrypt' is not defined
+2025-10-31 17:35:44.213 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:36:01.726 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:36:01.734 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:36:01.735 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active bucket(s) for environment: dev
+2025-10-31 17:36:01.735 | INFO     | main:main:46 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}, {'bucket_name': 'relmart-project-test', 'folder_path': 'sales_test/'}, {'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data2/'}]
+2025-10-31 17:36:01.735 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:36:02.935 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:36:02.935 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv']
+2025-10-31 17:36:02.936 | INFO     | main:main:56 | Processing S3 bucket: relmart-project-test, folder: sales_test/
+2025-10-31 17:36:04.092 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-project-test/sales_test/
+2025-10-31 17:36:04.092 | WARNING  | aws_read:list_files:34 | No CSV files present in relmart-project-test/sales_test/
+2025-10-31 17:36:04.092 | ERROR    | main:main:70 | No files found in relmart-project-test, folder: sales_test/ 
+2025-10-31 17:36:04.093 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:49:54.540 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:49:54.549 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:49:54.549 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 17:49:54.549 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:49:55.737 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:49:55.737 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv', 'sales_data.csv']
+2025-10-31 17:49:55.737 | ERROR    | spark_session:spark_session:32 | Initiating Spark session failed: name 'decrypt' is not defined
+2025-10-31 17:49:55.738 | ERROR    | main:main:144 | Job failed, exited with error: name 'decrypt' is not defined
+2025-10-31 17:49:55.738 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:53:24.384 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:53:24.393 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:53:24.393 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 17:53:24.393 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:53:25.587 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:53:25.589 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv', 'sales_data.csv']
+2025-10-31 17:53:25.589 | ERROR    | main:main:144 | Job failed, exited with error: name 'logger' is not defined
+2025-10-31 17:53:25.591 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:55:31.572 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:55:31.581 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:55:31.582 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 17:55:31.582 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:55:32.813 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:55:32.815 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv', 'sales_data.csv']
+2025-10-31 17:55:37.734 | INFO     | spark_session:spark_session:26 | Spark session created : <pyspark.sql.session.SparkSession object at 0x0000018D64849D30>
+2025-10-31 17:55:38.403 | ERROR    | main:main:144 | Job failed, exited with error: For input string: "60s"
+2025-10-31 17:55:38.404 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 17:58:09.041 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 17:58:09.050 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 17:58:09.050 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 17:58:09.050 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 17:58:10.239 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 17:58:10.241 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv', 'sales_data.csv']
+2025-10-31 17:58:20.179 | INFO     | spark_session:spark_session:26 | Spark session created : <pyspark.sql.session.SparkSession object at 0x0000021C202BDD30>
+2025-10-31 17:58:21.452 | ERROR    | main:main:144 | Job failed, exited with error: For input string: "60s"
+2025-10-31 17:58:21.453 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 18:03:46.564 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 18:03:46.573 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 18:03:46.574 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 18:03:46.574 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 18:03:47.770 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 18:03:47.770 | INFO     | main:main:98 | No records in ['Customers.csv', 'Working_Employees.csv', 'Customers.csv', 'Working_Employees.csv', 'sales_data.csv']
+2025-10-31 18:03:53.371 | INFO     | spark_session:spark_session:26 | Spark session created : <pyspark.sql.session.SparkSession object at 0x000002CD0E4E9D30>
+2025-10-31 18:03:54.036 | ERROR    | main:main:136 | Job failed, exited with error: For input string: "60s"
+2025-10-31 18:03:54.037 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-10-31 18:12:16.731 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-10-31 18:12:16.741 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-10-31 18:12:16.741 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 3 active sources for environment: dev
+2025-10-31 18:12:16.741 | INFO     | main:main:56 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-10-31 18:12:17.899 | INFO     | aws_read:list_files:17 | Looking for Files in relmart-sales-project/sales_data/
+2025-10-31 18:12:17.901 | INFO     | main:main:98 | No records in ['sales_data.csv']
+2025-10-31 18:12:22.813 | INFO     | spark_session:spark_session:26 | Spark session created : <pyspark.sql.session.SparkSession object at 0x0000027286A79D30>
+2025-10-31 18:12:23.472 | ERROR    | main:main:136 | Job failed, exited with error: For input string: "60s"
+2025-10-31 18:12:23.473 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.

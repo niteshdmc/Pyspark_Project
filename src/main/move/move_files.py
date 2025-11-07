@@ -1,66 +1,34 @@
-import traceback
+import os
 from src.main.utility.logging_config import *
 
 
-def move_s3_to_s3(s3_client, bucket_name, source_prefix, destination_prefix):
-    try:
-        response = s3_client.list_objects_v2(Bucket=bucket_name, Prefix=source_prefix)
+class MoveFiles:
+    def __init__(self, s3_client):
+        self.s3_client = s3_client
 
-        for obj in response.get('Contents', []):
-            source_key = obj['Key']
-            destination_key = destination_prefix + source_key[len(source_prefix):]
+    def move_s3_to_s3(self, bucket_name, source_prefix, destination_prefix, corrupt_files_paths):
+        try:
+                                                                    # Absolute_path = s3://relmart-sales-project/sales_data/2025_11_01/Customers.csv
+            for path in corrupt_files_paths:
+                filename = os.path.basename(path)
+                source_key = path.split(f"{bucket_name}/")[1]           #'sales_data/2025_10_30/Customers.csv'
+                destination_key = path.split(f"s3://{bucket_name}/")[1].split(f"{filename}")[0] + destination_prefix + filename
 
-            s3_client.copy_object(Bucket=bucket_name,
-                                  CopySource={'Bucket': bucket_name,
-                                              'Key': source_key}, Key=destination_key)
-
-            s3_client.delete_object(Bucket=bucket_name, Key=source_key)
-        return f"Data Moved succesfully from {source_prefix} to {destination_prefix}"
-    except Exception as e:
-        logger.error(f"Error moving file : {str(e)}")
-        traceback_message = traceback.format_exc()
-        print(traceback_message)
-        raise e
+                # Destination_key = sales_data/2025_10_30/ + schema_check/schema_mismatched_csv/ + Customers.csv
+                # we split Absolute_path = s3://relmart-sales-project/sales_data/2025_11_01/Customers.csv
+                # using split. split(f"{bucket_name}/")[1] we make it : ['', 'sales_data/2025_11_01/Customers.csv']
+                # Then we choose index [1] : 'sales_data/2025_11_01/Customers.csv' and split it again by filename
+                # which makes it : ['sales_data/2025_11_01/', ''] and then we choose index [0]
 
 
-def move_s3_to_s3(s3_client, bucket_name, source_prefix, destination_prefix,file_name=None):
-    try:
-        response = s3_client.list_objects_v2(Bucket=bucket_name, Prefix=source_prefix)
 
-        if file_name is None:
-            for obj in response.get('Contents', []):
-                source_key = obj['Key']
-                destination_key = destination_prefix + source_key[len(source_prefix):]
 
-                s3_client.copy_object(Bucket=bucket_name,
+                self.s3_client.copy_object(Bucket=bucket_name,
                                       CopySource={'Bucket': bucket_name,
                                                   'Key': source_key}, Key=destination_key)
 
-                s3_client.delete_object(Bucket=bucket_name, Key=source_key)
-            # return f"Data Moved succesfully from {source_prefix} to {destination_prefix}"
-        else:
-            for obj in response.get('Contents', []):
-                source_key = obj['Key']
-
-                if source_key.endswith(file_name):
-                    destination_key = destination_prefix + source_key[len(source_prefix):]
-
-                    s3_client.copy_object(Bucket=bucket_name,
-                                          CopySource={'Bucket': bucket_name,
-                                                      'Key': source_key}, Key=destination_key)
-
-                    s3_client.delete_object(Bucket=bucket_name, Key=source_key)
-                    logger.info(f"Moved file: {source_key} to {destination_key}")
-                # else:
-                #     logger.info(f"Skipped file: {source_key} as it doesn't match the filename criteria")
-
-        return f"Data Moved successfully from {source_prefix} to {destination_prefix}"
-    except Exception as e:
-        logger.error(f"Error moving file : {str(e)}")
-        traceback_message = traceback.format_exc()
-        print(traceback_message)
-        raise e
-
-
-def move_local_to_local():
-    pass
+                self.s3_client.delete_object(Bucket=bucket_name, Key=source_key)
+            return f"Data Moved successfully from {source_prefix} to {destination_prefix}"
+        except Exception as err:
+            logger.error(f"Error moving file : {str(err)}")
+            raise err

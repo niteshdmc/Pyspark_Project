@@ -7,6 +7,19 @@ CREATE TABLE product_staging_table (
     status VARCHAR(1)
 );
 
+CREATE TABLE s3_metadata (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    bucket_name VARCHAR(100) NOT NULL,
+    folder_path VARCHAR(200) NOT NULL,
+    file_type VARCHAR(20) DEFAULT 'csv',
+    status CHAR(1) DEFAULT 'A',          -- A = Active, I = Inactive
+    environment VARCHAR(20) NOT NULL,    -- dev / qa / prod
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO s3_metadata (bucket_name, folder_path, file_type, status, environment)
+VALUES
+('relmart-sales-project', 'sales_data/', 'csv', 'A', 'dev');
 
 CREATE TABLE customer (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -80,14 +93,24 @@ CREATE TABLE product (
 --product table data
 INSERT INTO product (name, current_price, old_price, created_date, updated_date, expiry_date)
 VALUES
-    ('quaker oats', 212, 212, '2022-05-15', NULL, '2025-01-01'),
-    ('sugar', 50, 50, '2021-08-10', NULL, '2025-01-01'),
-    ('maida', 20, 20, '2023-03-20', NULL, '2025-01-01'),
-    ('besan', 52, 52, '2020-05-05', NULL, '2025-01-01'),
-    ('refined oil', 110, 110, '2022-01-15', NULL, '2025-01-01'),
-    ('clinic plus', 1.5, 1.5, '2021-09-25', NULL, '2025-01-01'),
-    ('dantkanti', 100, 100, '2023-07-10', NULL, '2025-01-01'),
-    ('nutrella', 40, 40, '2020-11-30', NULL, '2025-01-01');
+    ('Apple iPhone 14 Pro', 134999, 134999, '2023-03-01', NULL, '2025-12-31'),
+    ('Sony WH-1000XM5 Headphones', 29990, 29990, '2023-03-01', NULL, '2025-12-31'),
+    ('Samsung 55-inch 4K QLED TV', 84990, 84990, '2023-03-01', NULL, '2025-12-31'),
+    ('Dell XPS 13 Laptop', 124999, 124999, '2023-03-01', NULL, '2025-12-31'),
+    ('Apple Watch Series 9', 45900, 45900, '2023-03-01', NULL, '2025-12-31'),
+    ('Prestige Induction Cooktop', 4990, 4990, '2023-03-01', NULL, '2025-12-31'),
+    ('Dyson V12 Vacuum Cleaner', 65900, 65900, '2023-03-01', NULL, '2025-12-31'),
+    ('Ray-Ban Aviator Sunglasses', 9990, 9990, '2023-03-01', NULL, '2025-12-31'),
+    ('Tissot PRX Watch', 49500, 49500, '2023-03-01', NULL, '2025-12-31'),
+    ('Nike Air Max Sneakers', 12999, 12999, '2023-03-01', NULL, '2025-12-31'),
+    ('Clinique Moisture Surge Cream', 2700, 2700, '2023-03-01', NULL, '2025-12-31'),
+    ('Dyson Supersonic Hair Dryer', 32900, 32900, '2023-03-01', NULL, '2025-12-31'),
+    ('Amul 85% Dark Chocolate', 450, 450, '2023-03-01', NULL, '2025-12-31'),
+    ('India Gate Basmati Rice', 700, 700, '2023-03-01', NULL, '2025-12-31'),
+    ('Davidoff Coffee Beans', 1100, 1100, '2023-03-01', NULL, '2025-12-31'),
+    ('Powermax Adjustable Dumbbell Set', 14999, 14999, '2023-03-01', NULL, '2025-12-31'),
+    ('Cosco Resistance Band', 350, 350, '2023-03-01', NULL, '2025-12-31');
+
 
 
 --sales team table

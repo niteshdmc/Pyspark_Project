@@ -3,7 +3,7 @@ from Cryptodome.Cipher import AES
 from Cryptodome.Protocol.KDF import PBKDF2
 import os, sys
 from resources.dev import config
-# from logging_config import logger
+from src.main.utility.logging_config import logger
 
 try:
     key = config.key
@@ -13,7 +13,7 @@ try:
     if not (key and iv and salt):
         raise Exception(F"Error while fetching details for key/iv/salt")
 except Exception as e:
-    print(f"Error occured. Details : {e}")
+    logger.error(f"Error occured. Details : {e}")
     # logger.error("Error occurred. Details: %s", e)
     sys.exit(0)
 

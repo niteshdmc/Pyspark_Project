@@ -1,0 +1,4 @@
+Java 21.0.8
+Python== 3.11
+mysql==8.0.43
+pyspark==3.5.7

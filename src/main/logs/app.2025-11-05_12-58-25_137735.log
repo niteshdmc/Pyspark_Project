@@ -1,0 +1,1079 @@
+2025-11-05 12:58:25.135 | ERROR    | encrypt_decrypt:<module>:16 | Error occured. Details : partially initialized module 'resources.dev.config' has no attribute 'key' (most likely due to a circular import)
+2025-11-05 13:22:06.394 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 13:22:06.426 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 13:22:06.431 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active sources for environment: dev
+2025-11-05 13:22:15.609 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 13:22:15.609 | INFO     | main:main:62 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 13:22:16.674 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 13:22:16.674 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-sales-project/sales_data/
+2025-11-05 13:22:16.674 | ERROR    | main:main:76 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 13:22:16.675 | ERROR    | main:main:92 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 13:22:16.675 | ERROR    | main:main:110 | Error while matching filenames in Staging : 
+2025-11-05 13:22:16.676 | INFO     | main:main:122 | Running loop for Abs Path: []
+2025-11-05 13:22:17.784 | INFO     | main:main:239 | Writing final dataframe:
+2025-11-05 13:22:25.065 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 13:23:32.090 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 13:23:32.126 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 13:23:32.127 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active sources for environment: dev
+2025-11-05 13:23:32.127 | INFO     | main:main:61 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 13:23:33.150 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 13:23:33.150 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-sales-project/sales_data/
+2025-11-05 13:23:33.150 | ERROR    | main:main:75 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 13:23:33.152 | ERROR    | main:main:91 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 13:23:33.152 | ERROR    | main:main:109 | Error while matching filenames in Staging : 
+2025-11-05 13:23:41.777 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 13:23:41.777 | INFO     | main:main:121 | Running loop for Abs Path: []
+2025-11-05 13:23:42.711 | INFO     | main:main:238 | Writing final dataframe:
+2025-11-05 13:23:49.860 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 13:25:43.425 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 13:25:43.441 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 13:25:45.779 | INFO     | staging_table:add_to_staging_table:22 | Added sales_data.csv to staging table
+2025-11-05 13:26:22.799 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 13:26:22.812 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 13:26:22.813 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active sources for environment: dev
+2025-11-05 13:26:31.722 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 13:26:31.722 | INFO     | main:main:63 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 13:26:32.752 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 13:26:32.753 | INFO     | main:main:108 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 13:26:32.753 | INFO     | main:main:123 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 13:26:41.782 | INFO     | main:main:148 | Expected data columns: {'total_cost', 'sales_person_id', 'product_id', 'sales_person_name', 'product_name', 'customer_address', 'quantity', 'sales_date', 'customer_id', 'price', 'store_id', 'customer_name'}
+2025-11-05 13:26:41.782 | INFO     | main:main:149 | Actual data columns: {'total_cost', 'sales_person_id', 'sales_person_name', 'product_name', 'payment_method', 'quantity', 'sales_date', 'customer_id', 'price', 'region', 'store_id', 'discount_code'}
+2025-11-05 13:26:41.782 | INFO     | main:main:150 | Required data columns: {'total_cost', 'sales_person_id', 'product_name', 'quantity', 'sales_date', 'customer_id', 'price', 'store_id'}
+2025-11-05 13:26:41.809 | INFO     | main:main:186 | Missing columns added
+2025-11-05 13:26:41.847 | ERROR    | main:main:232 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:26:41.847 | ERROR    | main:main:232 | DataType mismatch for customer_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 13:26:41.861 | ERROR    | main:main:232 | DataType mismatch for customer_address column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 13:26:41.868 | ERROR    | main:main:232 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 13:26:41.877 | ERROR    | main:main:232 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:26:41.877 | ERROR    | main:main:232 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:26:41.877 | ERROR    | main:main:232 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 13:26:41.885 | ERROR    | main:main:232 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:26:41.885 | ERROR    | main:main:232 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 13:26:41.891 | INFO     | main:main:236 | Enforcing Correct DataType...
+2025-11-05 13:26:41.920 | INFO     | main:main:240 | Writing final dataframe:
+2025-11-05 13:26:49.484 | ERROR    | main:main:262 | Job failed, exited with error: An error occurred while calling o125.jdbc.
+: java.sql.SQLSyntaxErrorException: Table 'relmart_db.customer' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.getQueryOutputSchema(JDBCRDD.scala:68)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.resolveTable(JDBCRDD.scala:58)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRelation$.getSchema(JDBCRelation.scala:241)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:37)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)
+	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)
+	at org.apache.spark.sql.DataFrameReader.jdbc(DataFrameReader.scala:249)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025-11-05 13:26:49.484 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 13:27:11.865 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 13:27:11.875 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 13:27:11.876 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active sources for environment: dev
+2025-11-05 13:27:20.784 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 13:27:20.784 | INFO     | main:main:63 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 13:27:21.786 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 13:27:21.786 | INFO     | main:main:108 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 13:27:21.786 | INFO     | main:main:123 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 13:27:30.660 | INFO     | main:main:148 | Expected data columns: {'sales_date', 'price', 'quantity', 'customer_address', 'customer_name', 'product_id', 'customer_id', 'sales_person_name', 'sales_person_id', 'product_name', 'total_cost', 'store_id'}
+2025-11-05 13:27:30.660 | INFO     | main:main:149 | Actual data columns: {'sales_date', 'region', 'price', 'quantity', 'discount_code', 'payment_method', 'customer_id', 'sales_person_name', 'sales_person_id', 'product_name', 'total_cost', 'store_id'}
+2025-11-05 13:27:30.660 | INFO     | main:main:150 | Required data columns: {'sales_date', 'price', 'quantity', 'customer_id', 'sales_person_id', 'product_name', 'total_cost', 'store_id'}
+2025-11-05 13:27:30.688 | INFO     | main:main:186 | Missing columns added
+2025-11-05 13:27:30.725 | ERROR    | main:main:232 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:27:30.725 | ERROR    | main:main:232 | DataType mismatch for customer_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 13:27:30.739 | ERROR    | main:main:232 | DataType mismatch for customer_address column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 13:27:30.747 | ERROR    | main:main:232 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 13:27:30.754 | ERROR    | main:main:232 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:27:30.754 | ERROR    | main:main:232 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:27:30.754 | ERROR    | main:main:232 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 13:27:30.763 | ERROR    | main:main:232 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 13:27:30.763 | ERROR    | main:main:232 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 13:27:30.771 | INFO     | main:main:236 | Enforcing Correct DataType...
+2025-11-05 13:27:30.801 | INFO     | main:main:240 | Writing final dataframe:
+2025-11-05 13:27:38.152 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 15:42:18.105 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 15:42:18.115 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 15:42:18.116 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 1 active sources for environment: dev
+2025-11-05 15:42:18.116 | INFO     | main:main:52 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}]
+2025-11-05 15:42:18.116 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 15:46:39.141 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 15:46:39.151 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 15:46:39.151 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 15:46:39.151 | INFO     | main:main:52 | Bucket details: [{'bucket_name': 'relmart-sales-project', 'folder_path': 'sales_data/'}, {'bucket_name': 'relmart-test', 'folder_path': 'test/'}]
+2025-11-05 15:46:39.151 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 16:00:08.731 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 16:00:08.740 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 16:00:08.741 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 16:00:17.372 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 16:00:17.372 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 16:00:18.416 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 16:00:18.416 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-sales-project/sales_data/
+2025-11-05 16:00:18.416 | ERROR    | main:main:78 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 16:00:18.416 | ERROR    | main:main:94 | No files found in relmart-sales-project, folder: sales_data/ 
+2025-11-05 16:00:18.416 | ERROR    | main:main:112 | Error while matching filenames in Staging : 
+2025-11-05 16:00:18.416 | INFO     | main:main:124 | Running loop for Abs Path: []
+2025-11-05 16:00:19.354 | INFO     | main:main:241 | Writing final dataframe:
+2025-11-05 16:00:27.036 | INFO     | main:main:263 | Dimension tables loaded in spark successfully
+2025-11-05 16:00:27.036 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the final_df_to_process with customer_df 
+2025-11-05 16:00:27.126 | INFO     | dimension_tables_join:dimensions_table_join:31 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 16:00:27.156 | INFO     | dimension_tables_join:dimensions_table_join:45 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 16:00:27.208 | INFO     | main:main:270 | Dataframe after data enrichment:
+2025-11-05 16:00:34.348 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 16:00:35.393 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 16:00:35.393 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 16:00:35.393 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 16:00:35.393 | ERROR    | main:main:94 | No files found in relmart-test, folder: test/ 
+2025-11-05 16:00:35.393 | ERROR    | main:main:112 | Error while matching filenames in Staging : 
+2025-11-05 16:00:35.393 | INFO     | main:main:124 | Running loop for Abs Path: []
+2025-11-05 16:00:35.409 | INFO     | main:main:241 | Writing final dataframe:
+2025-11-05 16:00:42.041 | INFO     | main:main:263 | Dimension tables loaded in spark successfully
+2025-11-05 16:00:42.041 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the final_df_to_process with customer_df 
+2025-11-05 16:00:42.054 | INFO     | dimension_tables_join:dimensions_table_join:31 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 16:00:42.063 | INFO     | dimension_tables_join:dimensions_table_join:45 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 16:00:42.096 | INFO     | main:main:270 | Dataframe after data enrichment:
+2025-11-05 16:00:48.676 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 16:04:40.051 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 16:04:40.066 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 16:04:41.816 | INFO     | staging_table:add_to_staging_table:22 | Added sales_data.csv to staging table
+2025-11-05 16:05:31.624 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 16:05:31.633 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 16:05:31.634 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 16:05:40.244 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 16:05:40.244 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 16:05:41.277 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 16:05:41.278 | INFO     | main:main:109 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 16:05:41.278 | INFO     | main:main:124 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 16:05:49.626 | INFO     | main:main:149 | Expected data columns: {'sales_person_name', 'price', 'customer_name', 'store_id', 'customer_address', 'customer_id', 'total_cost', 'sales_person_id', 'quantity', 'product_name', 'product_id', 'sales_date'}
+2025-11-05 16:05:49.626 | INFO     | main:main:150 | Actual data columns: {'price', 'store_id', 'customer_id', 'total_cost', 'sales_person_id', 'quantity', 'product_name', 'sales_date'}
+2025-11-05 16:05:49.626 | INFO     | main:main:151 | Required data columns: {'price', 'store_id', 'customer_id', 'total_cost', 'sales_person_id', 'quantity', 'product_name', 'sales_date'}
+2025-11-05 16:05:49.656 | INFO     | main:main:187 | Missing columns added
+2025-11-05 16:05:49.657 | ERROR    | main:main:233 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:05:49.657 | ERROR    | main:main:233 | DataType mismatch for customer_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:05:49.672 | ERROR    | main:main:233 | DataType mismatch for customer_address column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:05:49.680 | ERROR    | main:main:233 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 16:05:49.689 | ERROR    | main:main:233 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:05:49.689 | ERROR    | main:main:233 | DataType mismatch for sales_person_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:05:49.696 | ERROR    | main:main:233 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:05:49.696 | ERROR    | main:main:233 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 16:05:49.704 | ERROR    | main:main:233 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:05:49.704 | ERROR    | main:main:233 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 16:05:49.710 | INFO     | main:main:237 | Enforcing Correct DataType...
+2025-11-05 16:05:49.738 | INFO     | main:main:241 | Writing final dataframe:
+2025-11-05 16:05:56.858 | INFO     | main:main:263 | Dimension tables loaded in spark successfully
+2025-11-05 16:05:56.858 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the final_df_to_process with customer_df 
+2025-11-05 16:05:56.899 | INFO     | dimension_tables_join:dimensions_table_join:31 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 16:05:56.928 | INFO     | dimension_tables_join:dimensions_table_join:45 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 16:05:56.968 | INFO     | main:main:270 | Dataframe after data enrichment:
+2025-11-05 16:06:06.133 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 16:06:07.178 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 16:06:07.178 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 16:06:07.179 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 16:06:07.179 | ERROR    | main:main:94 | No files found in relmart-test, folder: test/ 
+2025-11-05 16:06:07.179 | ERROR    | main:main:112 | Error while matching filenames in Staging : 
+2025-11-05 16:06:07.179 | INFO     | main:main:124 | Running loop for Abs Path: []
+2025-11-05 16:06:07.195 | INFO     | main:main:241 | Writing final dataframe:
+2025-11-05 16:06:13.760 | INFO     | main:main:263 | Dimension tables loaded in spark successfully
+2025-11-05 16:06:13.760 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the final_df_to_process with customer_df 
+2025-11-05 16:06:13.770 | INFO     | dimension_tables_join:dimensions_table_join:31 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 16:06:13.777 | INFO     | dimension_tables_join:dimensions_table_join:45 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 16:06:13.806 | INFO     | main:main:270 | Dataframe after data enrichment:
+2025-11-05 16:06:20.303 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 16:07:12.159 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 16:07:12.168 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 16:07:12.169 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 16:07:20.652 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 16:07:20.652 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 16:07:21.999 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 16:07:21.999 | INFO     | main:main:110 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 16:07:21.999 | INFO     | main:main:125 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 16:07:29.832 | INFO     | main:main:150 | Expected data columns: {'sales_person_name', 'product_id', 'customer_id', 'sales_person_id', 'product_name', 'sales_date', 'customer_name', 'quantity', 'total_cost', 'store_id', 'customer_address', 'price'}
+2025-11-05 16:07:29.832 | INFO     | main:main:151 | Actual data columns: {'customer_id', 'sales_person_id', 'product_name', 'sales_date', 'quantity', 'total_cost', 'store_id', 'price'}
+2025-11-05 16:07:29.832 | INFO     | main:main:152 | Required data columns: {'customer_id', 'sales_person_id', 'product_name', 'sales_date', 'quantity', 'total_cost', 'store_id', 'price'}
+2025-11-05 16:07:29.859 | INFO     | main:main:188 | Missing columns added
+2025-11-05 16:07:29.860 | ERROR    | main:main:234 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:07:29.860 | ERROR    | main:main:234 | DataType mismatch for customer_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:07:29.874 | ERROR    | main:main:234 | DataType mismatch for customer_address column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:07:29.882 | ERROR    | main:main:234 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 16:07:29.888 | ERROR    | main:main:234 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:07:29.889 | ERROR    | main:main:234 | DataType mismatch for sales_person_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 16:07:29.895 | ERROR    | main:main:234 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:07:29.895 | ERROR    | main:main:234 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 16:07:29.903 | ERROR    | main:main:234 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 16:07:29.903 | ERROR    | main:main:234 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 16:07:29.909 | INFO     | main:main:238 | Enforcing Correct DataType...
+2025-11-05 16:07:29.936 | INFO     | main:main:242 | Writing final dataframe:
+2025-11-05 16:07:37.100 | INFO     | main:main:264 | Dimension tables loaded in spark successfully
+2025-11-05 16:07:37.100 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the final_df_to_process with customer_df 
+2025-11-05 16:07:37.148 | INFO     | dimension_tables_join:dimensions_table_join:31 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 16:07:37.175 | INFO     | dimension_tables_join:dimensions_table_join:45 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 16:07:37.220 | INFO     | main:main:271 | Dataframe after data enrichment:
+2025-11-05 16:07:46.449 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 16:07:47.476 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 16:07:47.476 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 16:07:47.476 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 16:07:47.477 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 17:14:47.937 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 17:14:47.947 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 17:14:47.948 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 17:14:56.596 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 17:14:56.596 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 17:14:57.629 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 17:14:57.631 | INFO     | main:main:110 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 17:14:57.632 | INFO     | main:main:125 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 17:15:05.699 | INFO     | main:main:150 | Expected data columns: {'customer_address', 'customer_id', 'sales_person_id', 'total_cost', 'product_id', 'sales_date', 'sales_person_name', 'product_name', 'price', 'quantity', 'store_id', 'customer_name'}
+2025-11-05 17:15:05.699 | INFO     | main:main:151 | Actual data columns: {'customer_id', 'sales_person_id', 'total_cost', 'sales_date', 'price', 'quantity', 'store_id', 'product_name'}
+2025-11-05 17:15:05.699 | INFO     | main:main:152 | Required data columns: {'customer_id', 'sales_person_id', 'total_cost', 'sales_date', 'price', 'quantity', 'store_id', 'product_name'}
+2025-11-05 17:15:05.760 | INFO     | main:main:188 | Missing columns added
+2025-11-05 17:15:05.760 | ERROR    | main:main:234 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 17:15:05.760 | ERROR    | main:main:234 | DataType mismatch for customer_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 17:15:05.822 | ERROR    | main:main:234 | DataType mismatch for customer_address column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 17:15:05.839 | ERROR    | main:main:234 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 17:15:05.855 | ERROR    | main:main:234 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 17:15:05.855 | ERROR    | main:main:234 | DataType mismatch for sales_person_name column in ['sales_data.csv'] : Expected: string vs Actual: void
+2025-11-05 17:15:05.887 | ERROR    | main:main:234 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 17:15:05.887 | ERROR    | main:main:234 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 17:15:05.902 | ERROR    | main:main:234 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 17:15:05.902 | ERROR    | main:main:234 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 17:15:05.941 | INFO     | main:main:238 | Enforcing Correct DataType...
+2025-11-05 17:15:05.995 | INFO     | main:main:242 | Writing final dataframe:
+2025-11-05 17:15:16.206 | INFO     | main:main:267 | Dimension tables loaded in spark successfully
+2025-11-05 17:15:16.206 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 17:15:17.186 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 17:15:17.186 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 17:15:17.186 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 17:15:17.187 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 21:42:35.422 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 21:42:35.515 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 21:42:37.406 | INFO     | staging_table:add_to_staging_table:22 | Added sales_data.csv to staging table
+2025-11-05 21:44:02.866 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 21:44:02.878 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 21:44:02.889 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 21:44:12.373 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 21:44:12.373 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 21:44:13.439 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 21:44:13.441 | INFO     | main:main:110 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 21:44:13.441 | INFO     | main:main:125 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 21:44:22.304 | INFO     | main:main:150 | Expected data columns: {'product_id', 'customer_name', 'sales_person_name', 'customer_address', 'quantity', 'price', 'product_name', 'total_cost', 'sales_person_id', 'store_id', 'sales_date', 'customer_id'}
+2025-11-05 21:44:22.305 | INFO     | main:main:151 | Actual data columns: {'customer_name', 'sales_person_name', 'customer_address', 'quantity', 'price', 'customer_type', 'product_name', 'total_cost', 'sales_person_id', 'store_id', 'discount', 'sales_date', 'customer_id', '_c11'}
+2025-11-05 21:44:22.305 | INFO     | main:main:152 | Required data columns: {'quantity', 'price', 'product_name', 'total_cost', 'sales_person_id', 'store_id', 'sales_date', 'customer_id'}
+2025-11-05 21:44:22.321 | INFO     | main:main:188 | Missing columns added
+2025-11-05 21:44:22.360 | ERROR    | main:main:234 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:44:22.361 | ERROR    | main:main:234 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 21:44:22.375 | ERROR    | main:main:234 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:44:22.375 | ERROR    | main:main:234 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:44:22.375 | ERROR    | main:main:234 | DataType mismatch for sales_date column in ['sales_data.csv'] : Expected: date vs Actual: string
+2025-11-05 21:44:22.385 | ERROR    | main:main:234 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:44:22.394 | ERROR    | main:main:234 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:44:22.394 | ERROR    | main:main:234 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:44:22.403 | INFO     | main:main:238 | Enforcing Correct DataType...
+2025-11-05 21:44:22.428 | INFO     | main:main:242 | Writing final dataframe:
+2025-11-05 21:44:30.272 | INFO     | main:main:267 | Dimension tables loaded in spark successfully
+2025-11-05 21:44:30.272 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 21:44:31.338 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 21:44:31.338 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 21:44:31.338 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 21:44:31.339 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 21:51:30.253 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 21:51:30.266 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 21:51:30.267 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 21:51:39.511 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 21:51:39.511 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 21:51:40.582 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 21:51:40.583 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 21:51:40.583 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 21:51:48.873 | INFO     | main:main:151 | Expected data columns: {'price', 'sales_date', 'store_id', 'customer_id', 'customer_name', 'total_cost', 'quantity', 'sales_person_id', 'product_name', 'product_id', 'sales_person_name', 'customer_address'}
+2025-11-05 21:51:48.873 | INFO     | main:main:152 | Actual data columns: {'price', '_c11', 'sales_date', 'customer_type', 'store_id', 'customer_id', 'customer_name', 'sales_person_name', 'quantity', 'discount', 'product_name', 'sales_person_id', 'total_cost', 'customer_address'}
+2025-11-05 21:51:48.873 | INFO     | main:main:153 | Required data columns: {'price', 'sales_date', 'store_id', 'customer_id', 'quantity', 'product_name', 'sales_person_id', 'total_cost'}
+2025-11-05 21:51:48.889 | INFO     | main:main:189 | Missing columns added
+2025-11-05 21:51:48.933 | ERROR    | main:main:235 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:51:48.933 | ERROR    | main:main:235 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 21:51:48.950 | ERROR    | main:main:235 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:51:48.950 | ERROR    | main:main:235 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:51:48.950 | ERROR    | main:main:235 | DataType mismatch for sales_date column in ['sales_data.csv'] : Expected: date vs Actual: string
+2025-11-05 21:51:48.962 | ERROR    | main:main:235 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:51:48.972 | ERROR    | main:main:235 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:51:48.973 | ERROR    | main:main:235 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:51:48.979 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-05 21:51:49.007 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-05 21:51:57.331 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-05 21:51:57.331 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-05 21:51:57.401 | INFO     | dimension_tables_join:dimensions_table_join:39 | Joining the s3_customer_joined_df with store_df 
+2025-11-05 21:51:57.432 | INFO     | dimension_tables_join:dimensions_table_join:53 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-05 21:51:57.483 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-05 21:52:07.909 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 21:52:08.919 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 21:52:08.919 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 21:52:08.919 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 21:52:08.919 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 21:57:22.674 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 21:57:22.687 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 21:57:22.688 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 21:57:31.913 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 21:57:31.913 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 21:57:32.933 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 21:57:32.934 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 21:57:32.934 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 21:57:41.685 | INFO     | main:main:151 | Expected data columns: {'store_id', 'customer_id', 'sales_date', 'product_name', 'customer_address', 'price', 'quantity', 'product_id', 'total_cost', 'sales_person_id', 'sales_person_name', 'customer_name'}
+2025-11-05 21:57:41.685 | INFO     | main:main:152 | Actual data columns: {'store_id', 'sales_person_name', 'customer_id', 'sales_date', 'customer_address', 'price', 'quantity', 'discount', 'total_cost', 'sales_person_id', 'customer_type', 'product_name', '_c11', 'customer_name'}
+2025-11-05 21:57:41.686 | INFO     | main:main:153 | Required data columns: {'store_id', 'customer_id', 'sales_date', 'price', 'quantity', 'total_cost', 'sales_person_id', 'product_name'}
+2025-11-05 21:57:41.705 | INFO     | main:main:189 | Missing columns added
+2025-11-05 21:57:41.752 | ERROR    | main:main:235 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:57:41.753 | ERROR    | main:main:235 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 21:57:41.769 | ERROR    | main:main:235 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:57:41.769 | ERROR    | main:main:235 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:57:41.769 | ERROR    | main:main:235 | DataType mismatch for sales_date column in ['sales_data.csv'] : Expected: date vs Actual: string
+2025-11-05 21:57:41.781 | ERROR    | main:main:235 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:57:41.789 | ERROR    | main:main:235 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 21:57:41.789 | ERROR    | main:main:235 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 21:57:41.799 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-05 21:57:41.833 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-05 21:57:50.424 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-05 21:57:50.424 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-05 21:57:50.505 | ERROR    | main:main:279 | Job failed, exited with error: otherwise() can only be applied on a Column previously generated by when()
+2025-11-05 21:57:50.507 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-05 22:09:39.786 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-05 22:09:39.798 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-05 22:09:39.799 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-05 22:09:49.087 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-05 22:09:49.087 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-05 22:09:50.097 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-05 22:09:50.099 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-05 22:09:50.099 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-05 22:10:01.107 | INFO     | main:main:151 | Expected data columns: {'product_id', 'product_name', 'price', 'customer_address', 'quantity', 'total_cost', 'customer_name', 'sales_person_name', 'sales_date', 'customer_id', 'store_id', 'sales_person_id'}
+2025-11-05 22:10:01.108 | INFO     | main:main:152 | Actual data columns: {'_c11', 'product_name', 'price', 'customer_address', 'quantity', 'total_cost', 'customer_name', 'discount', 'customer_type', 'sales_person_name', 'sales_date', 'customer_id', 'store_id', 'sales_person_id'}
+2025-11-05 22:10:01.108 | INFO     | main:main:153 | Required data columns: {'product_name', 'price', 'quantity', 'total_cost', 'sales_date', 'customer_id', 'store_id', 'sales_person_id'}
+2025-11-05 22:10:01.142 | INFO     | main:main:189 | Missing columns added
+2025-11-05 22:10:01.225 | ERROR    | main:main:235 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 22:10:01.226 | ERROR    | main:main:235 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-05 22:10:01.253 | ERROR    | main:main:235 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 22:10:01.253 | ERROR    | main:main:235 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 22:10:01.254 | ERROR    | main:main:235 | DataType mismatch for sales_date column in ['sales_data.csv'] : Expected: date vs Actual: string
+2025-11-05 22:10:01.273 | ERROR    | main:main:235 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 22:10:01.291 | ERROR    | main:main:235 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-05 22:10:01.291 | ERROR    | main:main:235 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-05 22:10:01.307 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-05 22:10:01.354 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-05 22:10:14.995 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-05 22:10:14.995 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-05 22:10:15.087 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-05 22:10:29.907 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-05 22:10:30.929 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-05 22:10:30.929 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-05 22:10:30.929 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-05 22:10:30.930 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 07:51:44.784 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 07:51:44.821 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 07:51:44.829 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 07:51:54.007 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 07:51:54.007 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 07:51:55.061 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 07:51:55.069 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 07:51:55.069 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-06 07:52:03.828 | INFO     | main:main:151 | Expected data columns: {'customer_address', 'sales_person_name', 'sales_person_id', 'product_id', 'quantity', 'price', 'customer_id', 'total_cost', 'product_name', 'store_id', 'customer_name', 'sales_date'}
+2025-11-06 07:52:03.828 | INFO     | main:main:152 | Actual data columns: {'customer_address', 'sales_person_name', 'sales_person_id', 'quantity', 'customer_type', 'price', 'discount', 'customer_id', 'total_cost', 'product_name', 'store_id', 'customer_name', '_c11', 'sales_date'}
+2025-11-06 07:52:03.828 | INFO     | main:main:153 | Required data columns: {'sales_person_id', 'quantity', 'price', 'customer_id', 'total_cost', 'product_name', 'store_id', 'sales_date'}
+2025-11-06 07:52:03.845 | INFO     | main:main:189 | Missing columns added
+2025-11-06 07:52:03.880 | ERROR    | main:main:235 | DataType mismatch for customer_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-06 07:52:03.881 | ERROR    | main:main:235 | DataType mismatch for store_id column in ['sales_data.csv'] : Expected: string vs Actual: int
+2025-11-06 07:52:03.895 | ERROR    | main:main:235 | DataType mismatch for sales_person_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-06 07:52:03.896 | ERROR    | main:main:235 | DataType mismatch for product_id column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-06 07:52:03.896 | ERROR    | main:main:235 | DataType mismatch for sales_date column in ['sales_data.csv'] : Expected: date vs Actual: string
+2025-11-06 07:52:03.905 | ERROR    | main:main:235 | DataType mismatch for price column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-06 07:52:03.914 | ERROR    | main:main:235 | DataType mismatch for quantity column in ['sales_data.csv'] : Expected: integer vs Actual: int
+2025-11-06 07:52:03.914 | ERROR    | main:main:235 | DataType mismatch for total_cost column in ['sales_data.csv'] : Expected: double vs Actual: int
+2025-11-06 07:52:03.922 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 07:52:03.944 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-06 07:52:11.080 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 07:52:11.080 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-06 07:52:11.140 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 07:52:19.550 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 07:52:20.544 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 07:52:20.544 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 07:52:20.544 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 07:52:20.545 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 07:57:18.249 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 07:57:18.259 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 07:57:18.260 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 07:57:26.931 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 07:57:26.931 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 07:57:27.944 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 07:57:27.946 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 07:57:27.946 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-06 07:57:30.855 | ERROR    | main:main:279 | Job failed, exited with error: An error occurred while calling o58.load
+2025-11-06 07:57:30.856 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 07:59:20.373 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 07:59:20.383 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 07:59:20.384 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 07:59:29.030 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 07:59:29.030 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 07:59:30.096 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 07:59:30.098 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 07:59:30.098 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-06 07:59:37.910 | INFO     | main:main:189 | Missing columns added
+2025-11-06 07:59:37.984 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 07:59:45.079 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 07:59:45.079 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-06 07:59:45.138 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 07:59:53.731 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 07:59:54.749 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 07:59:54.749 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 07:59:54.749 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 07:59:54.751 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:00:37.790 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:00:37.799 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:00:37.800 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:00:46.503 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:00:46.504 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:00:47.627 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:00:47.628 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:00:47.628 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_05/sales_data.csv']
+2025-11-06 08:00:55.408 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:00:55.493 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:01:02.725 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:01:02.725 | INFO     | dimension_tables_join:dimensions_table_join:11 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:01:02.785 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:01:11.349 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:01:12.380 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:01:12.380 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:01:12.380 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:01:12.381 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:03:31.117 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:03:31.130 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:03:32.927 | INFO     | staging_table:add_to_staging_table:22 | Added sales_data.csv to staging table
+2025-11-06 08:03:48.621 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:03:48.630 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:03:48.631 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:03:57.249 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:03:57.249 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:03:58.263 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:03:58.264 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:03:58.265 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:04:06.129 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:04:06.198 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:04:13.220 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:04:13.220 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:04:13.280 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:04:21.620 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:04:22.682 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:04:22.682 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:04:22.682 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:04:22.683 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:07:32.494 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:07:32.504 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:07:32.505 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:07:41.116 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:07:41.116 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:07:42.164 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:07:42.166 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:07:42.166 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:07:50.318 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:07:50.386 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:07:50.688 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:07:50.689 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:07:50.751 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:07:50.752 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:07:51.778 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:07:51.779 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:07:51.779 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:07:51.781 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:10:52.745 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:10:52.755 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:10:52.755 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:11:01.405 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:11:01.406 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:11:02.424 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:11:02.425 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:11:02.425 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:11:10.444 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:11:10.512 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:11:10.846 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:11:10.846 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:11:10.915 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:11:10.917 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:11:11.937 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:11:11.937 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:11:11.937 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:11:11.940 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:11:43.198 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:11:43.207 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:11:43.207 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:11:51.850 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:11:51.850 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:11:52.894 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:11:52.895 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:11:52.895 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:12:00.763 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:12:00.834 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:12:01.141 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:12:01.141 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:12:01.205 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:12:09.971 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:12:10.999 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:12:11.000 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:12:11.000 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:12:11.002 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:13:23.182 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:13:23.192 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:13:23.192 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:13:31.775 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:13:31.775 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:13:32.817 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:13:32.818 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:13:32.818 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:13:40.686 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:13:40.754 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:13:41.082 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:13:41.082 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:13:41.146 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:13:49.949 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:13:50.941 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:13:50.942 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:13:50.942 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:13:50.945 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:17:40.185 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:17:40.195 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:17:40.195 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:17:51.568 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:17:51.568 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:17:52.618 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:17:52.620 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:17:52.620 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:18:03.078 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:18:03.233 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:18:03.937 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:18:03.938 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:18:04.387 | ERROR    | main:main:280 | Job failed, exited with error: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `pricequantity` cannot be resolved. Did you mean one of the following? [`s3_data`.`quantity`, `ct`.`pincode`, `ct`.`address`, `customer_name`, `ct`.`last_name`].;
+'Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, 'pricequantity, total_cost#7, customer_address#174, sales_person_name#175, product_id#176, extra_data#177]
++- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, CASE WHEN isnull(customer_name#173) THEN concat_ws( , first_name#192, last_name#193) ELSE customer_name#173 END AS customer_name#300, customer_address#174, sales_person_name#175, product_id#176, extra_data#177, customer_id#191, first_name#192, last_name#193, address#194, pincode#195, phone_number#196, customer_joining_date#197]
+   +- Join LeftOuter, (customer_id#0 = customer_id#191)
+      :- SubqueryAlias s3_data
+      :  +- Union false, false
+      :     :- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, null AS customer_name#173, null AS customer_address#174, null AS sales_person_name#175, null AS product_id#176, null AS extra_data#177]
+      :     :  +- LogicalRDD [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7], false
+      :     +- Project [customer_id#33, store_id#117, product_name#37, sales_date#131, sales_person_id#39, price#145, quantity#41, total_cost#159, customer_name#34, customer_address#35, sales_person_name#43, product_id#59, extra_data#75]
+      :        +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, price#145, quantity#41, cast(total_cost#42 as double) AS total_cost#159, extra_data#75]
+      :           +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, cast(price#40 as double) AS price#145, quantity#41, total_cost#42, extra_data#75]
+      :              +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, to_date(sales_date#38, Some(yyyy-MM-dd), Some(Asia/Calcutta), false) AS sales_date#131, price#40, quantity#41, total_cost#42, extra_data#75]
+      :                 +- Project [customer_id#33, customer_name#34, customer_address#35, cast(store_id#36 as string) AS store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+      :                    +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+      :                       +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, product_id#59, extra_data#75]
+      :                          +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, product_id#59, to_json(struct(customer_type, customer_type#45, discount, discount#44), Some(Asia/Calcutta)) AS extra_data#75]
+      :                             +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, 0 AS product_id#59]
+      :                                +- Relation [customer_id#33,customer_name#34,customer_address#35,store_id#36,product_name#37,sales_date#38,sales_person_id#39,price#40,quantity#41,total_cost#42,sales_person_name#43,discount#44,customer_type#45] csv
+      +- SubqueryAlias ct
+         +- Relation [customer_id#191,first_name#192,last_name#193,address#194,pincode#195,phone_number#196,customer_joining_date#197] JDBCRelation(customer) [numPartitions=1]
+
+2025-11-06 08:18:04.398 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:21:07.403 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:21:07.412 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:21:07.413 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:21:17.613 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:21:17.613 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:21:18.660 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:21:18.661 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:21:18.661 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:21:26.455 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:21:26.527 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:21:26.893 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:21:26.893 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:21:26.969 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:21:35.649 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:21:36.746 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:21:36.747 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:21:36.747 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:21:36.749 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:30:02.420 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:30:02.430 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:30:02.430 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:30:11.042 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:30:11.042 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:30:12.089 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:30:12.091 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:30:12.092 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:30:20.051 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:30:20.130 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:30:20.521 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:30:20.522 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:30:20.606 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:30:20.752 | ERROR    | main:main:280 | Job failed, exited with error: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `s3_customer_joined_df`.`store_id` cannot be resolved. Did you mean one of the following? [`s3_data`.`store_id`, `s3_data`.`sales_person_id`, `store_opening_date`, `store_pincode`, `s3_data`.`customer_address`].;
+'Join LeftOuter, ('s3_customer_joined_df.store_id = 'store_df.id)
+:- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, customer_address#174, sales_person_name#175, product_id#176, extra_data#177]
+:  +- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, CASE WHEN isnull(customer_name#173) THEN concat_ws( , first_name#192, last_name#193) ELSE customer_name#173 END AS customer_name#300, customer_address#174, sales_person_name#175, product_id#176, extra_data#177, customer_id#191, first_name#192, last_name#193, address#194, pincode#195, phone_number#196, customer_joining_date#197]
+:     +- Join LeftOuter, (customer_id#0 = customer_id#191)
+:        :- SubqueryAlias s3_data
+:        :  +- Union false, false
+:        :     :- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, null AS customer_name#173, null AS customer_address#174, null AS sales_person_name#175, null AS product_id#176, null AS extra_data#177]
+:        :     :  +- LogicalRDD [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7], false
+:        :     +- Project [customer_id#33, store_id#117, product_name#37, sales_date#131, sales_person_id#39, price#145, quantity#41, total_cost#159, customer_name#34, customer_address#35, sales_person_name#43, product_id#59, extra_data#75]
+:        :        +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, price#145, quantity#41, cast(total_cost#42 as double) AS total_cost#159, extra_data#75]
+:        :           +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, cast(price#40 as double) AS price#145, quantity#41, total_cost#42, extra_data#75]
+:        :              +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, to_date(sales_date#38, Some(yyyy-MM-dd), Some(Asia/Calcutta), false) AS sales_date#131, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                 +- Project [customer_id#33, customer_name#34, customer_address#35, cast(store_id#36 as string) AS store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                    +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                       +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, product_id#59, extra_data#75]
+:        :                          +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, product_id#59, to_json(struct(discount, discount#44, customer_type, customer_type#45), Some(Asia/Calcutta)) AS extra_data#75]
+:        :                             +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, 0 AS product_id#59]
+:        :                                +- Relation [customer_id#33,customer_name#34,customer_address#35,store_id#36,product_name#37,sales_date#38,sales_person_id#39,price#40,quantity#41,total_cost#42,sales_person_name#43,discount#44,customer_type#45] csv
+:        +- SubqueryAlias ct
+:           +- Relation [customer_id#191,first_name#192,last_name#193,address#194,pincode#195,phone_number#196,customer_joining_date#197] JDBCRelation(customer) [numPartitions=1]
++- Relation [id#248,address#249,store_pincode#250,store_manager_name#251,store_opening_date#252,reviews#253] JDBCRelation(store) [numPartitions=1]
+
+2025-11-06 08:30:20.757 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:32:00.142 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:32:00.151 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:32:00.152 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:32:08.661 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:32:08.661 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:32:09.694 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:32:09.695 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:32:09.695 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:32:17.705 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:32:17.776 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:32:18.149 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:32:18.150 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:32:18.243 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:32:27.009 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:32:28.035 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:32:28.035 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:32:28.035 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:32:28.037 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:33:18.298 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:33:18.308 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:33:18.309 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:33:29.748 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:33:29.749 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:33:30.803 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:33:30.804 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:33:30.805 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:33:41.434 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:33:41.583 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:33:42.343 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:33:42.344 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:33:42.543 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:33:42.798 | ERROR    | main:main:280 | Job failed, exited with error: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `s3_customer_joined_df`.`store_id` cannot be resolved. Did you mean one of the following? [`s3_data`.`store_id`, `s3_data`.`sales_person_id`, `store_opening_date`, `store_pincode`, `s3_data`.`customer_address`].;
+'Join LeftOuter, ('s3_customer_joined_df.store_id = 'store_df.id)
+:- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, customer_address#174, sales_person_name#175, product_id#176, extra_data#177]
+:  +- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, CASE WHEN isnull(customer_name#173) THEN concat_ws( , first_name#192, last_name#193) ELSE customer_name#173 END AS customer_name#300, customer_address#174, sales_person_name#175, product_id#176, extra_data#177, customer_id#191, first_name#192, last_name#193, address#194, pincode#195, phone_number#196, customer_joining_date#197]
+:     +- Join LeftOuter, (customer_id#0 = customer_id#191)
+:        :- SubqueryAlias s3_data
+:        :  +- Union false, false
+:        :     :- Project [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7, null AS customer_name#173, null AS customer_address#174, null AS sales_person_name#175, null AS product_id#176, null AS extra_data#177]
+:        :     :  +- LogicalRDD [customer_id#0, store_id#1, product_name#2, sales_date#3, sales_person_id#4, price#5, quantity#6, total_cost#7], false
+:        :     +- Project [customer_id#33, store_id#117, product_name#37, sales_date#131, sales_person_id#39, price#145, quantity#41, total_cost#159, customer_name#34, customer_address#35, sales_person_name#43, product_id#59, extra_data#75]
+:        :        +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, price#145, quantity#41, cast(total_cost#42 as double) AS total_cost#159, extra_data#75]
+:        :           +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#131, cast(price#40 as double) AS price#145, quantity#41, total_cost#42, extra_data#75]
+:        :              +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, to_date(sales_date#38, Some(yyyy-MM-dd), Some(Asia/Calcutta), false) AS sales_date#131, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                 +- Project [customer_id#33, customer_name#34, customer_address#35, cast(store_id#36 as string) AS store_id#117, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                    +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, sales_person_id#39, sales_person_name#43, product_name#37, product_id#59, sales_date#38, price#40, quantity#41, total_cost#42, extra_data#75]
+:        :                       +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, product_id#59, extra_data#75]
+:        :                          +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, product_id#59, to_json(struct(customer_type, customer_type#45, discount, discount#44), Some(Asia/Calcutta)) AS extra_data#75]
+:        :                             +- Project [customer_id#33, customer_name#34, customer_address#35, store_id#36, product_name#37, sales_date#38, sales_person_id#39, price#40, quantity#41, total_cost#42, sales_person_name#43, discount#44, customer_type#45, 0 AS product_id#59]
+:        :                                +- Relation [customer_id#33,customer_name#34,customer_address#35,store_id#36,product_name#37,sales_date#38,sales_person_id#39,price#40,quantity#41,total_cost#42,sales_person_name#43,discount#44,customer_type#45] csv
+:        +- SubqueryAlias ct
+:           +- Relation [customer_id#191,first_name#192,last_name#193,address#194,pincode#195,phone_number#196,customer_joining_date#197] JDBCRelation(customer) [numPartitions=1]
++- Relation [id#248,address#249,store_pincode#250,store_manager_name#251,store_opening_date#252,reviews#253] JDBCRelation(store) [numPartitions=1]
+
+2025-11-06 08:33:42.803 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:35:45.357 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:35:45.366 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:35:45.367 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:35:54.017 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:35:54.017 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:35:55.058 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:35:55.059 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:35:55.059 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:36:03.505 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:36:03.587 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:36:03.935 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:36:03.935 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:36:04.011 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:36:04.031 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:36:12.923 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:36:13.941 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:36:13.942 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:36:13.942 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:36:13.944 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:41:12.983 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:41:12.994 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:41:12.995 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:41:21.607 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:41:21.607 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:41:22.660 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:41:22.661 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:41:22.661 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:41:30.541 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:41:30.618 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:41:30.983 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:41:30.983 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:41:31.067 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:41:31.090 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:41:39.913 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:41:40.959 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:41:40.959 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:41:40.959 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:41:40.961 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:43:27.499 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:43:27.508 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:43:27.509 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:43:36.063 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:43:36.063 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:43:37.151 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:43:37.152 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:43:37.152 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:43:45.118 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:43:45.194 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:43:45.550 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:43:45.550 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:43:45.629 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:43:45.652 | INFO     | dimension_tables_join:dimensions_table_join:24 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 08:43:45.678 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:43:55.951 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:43:57.451 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:43:57.451 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:43:57.451 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:43:57.453 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 08:52:23.088 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 08:52:23.097 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 08:52:23.098 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 08:52:31.792 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 08:52:31.792 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 08:52:32.849 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 08:52:32.851 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 08:52:32.851 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 08:52:40.512 | INFO     | main:main:189 | Missing columns added
+2025-11-06 08:52:40.589 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 08:52:40.935 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 08:52:40.935 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 08:52:41.012 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 08:52:41.035 | INFO     | dimension_tables_join:dimensions_table_join:24 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 08:52:41.058 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 08:52:49.886 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 08:52:50.965 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 08:52:50.965 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 08:52:50.965 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 08:52:50.967 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:00:23.698 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:00:23.708 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:00:23.708 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:00:32.323 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:00:32.323 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:00:33.391 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:00:33.392 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:00:33.392 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:00:41.203 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:00:41.279 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:00:41.633 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:00:41.633 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:00:41.721 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:00:41.749 | INFO     | dimension_tables_join:dimensions_table_join:24 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:00:41.767 | ERROR    | main:main:280 | Job failed, exited with error: 'Column' object is not callable
+2025-11-06 09:00:41.768 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:01:12.199 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:01:12.208 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:01:12.208 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:01:20.793 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:01:20.793 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:01:21.880 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:01:21.882 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:01:21.882 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:01:29.909 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:01:29.983 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:01:30.337 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:01:30.337 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:01:30.412 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:01:30.440 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:01:39.295 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:01:40.307 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:01:40.307 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:01:40.307 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:01:40.309 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:02:50.124 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:02:50.133 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:02:50.133 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:02:58.661 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:02:58.661 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:02:59.741 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:02:59.743 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:02:59.743 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:03:07.576 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:03:07.656 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:03:07.983 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:03:07.983 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:03:08.056 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:03:08.083 | INFO     | dimension_tables_join:dimensions_table_join:25 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:03:08.106 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:03:16.910 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:03:17.977 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:03:17.978 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:03:17.978 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:03:17.980 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:05:49.905 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:05:49.915 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:05:49.915 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:05:58.420 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:05:58.420 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:05:59.472 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:05:59.473 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:05:59.474 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:06:15.638 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:06:15.714 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:06:16.147 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:06:16.147 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:06:16.223 | INFO     | dimension_tables_join:dimensions_table_join:15 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:06:16.248 | INFO     | dimension_tables_join:dimensions_table_join:24 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:06:16.271 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:06:27.754 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:06:28.779 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:06:28.779 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:06:28.779 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:06:28.781 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:10:39.661 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:10:39.671 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:10:39.671 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:10:48.272 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:10:48.272 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:10:49.308 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:10:49.309 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:10:49.309 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:10:57.274 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:10:57.357 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:10:57.700 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:10:57.700 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:10:57.772 | ERROR    | main:main:280 | Job failed, exited with error: 'DataFrame' object has no attribute 'otherwise'
+2025-11-06 09:10:57.773 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:13:28.981 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:13:28.990 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:13:28.991 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:13:37.629 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:13:37.629 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:13:38.656 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:13:38.658 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:13:38.659 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:13:46.542 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:13:46.621 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:13:46.959 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:13:46.959 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:13:47.027 | ERROR    | main:main:280 | Job failed, exited with error: 'DataFrame' object has no attribute 'otherwise'
+2025-11-06 09:13:47.028 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:14:29.563 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:14:29.573 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:14:29.573 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:14:38.200 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:14:38.200 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:14:39.248 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:14:39.249 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:14:39.249 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:14:47.356 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:14:47.433 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:14:47.768 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:14:47.768 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:14:47.830 | ERROR    | main:main:280 | Job failed, exited with error: 'DataFrame' object has no attribute 'otherwise'
+2025-11-06 09:14:47.831 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:16:18.170 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:16:18.179 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:16:18.180 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:16:26.791 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:16:26.791 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:16:27.851 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:16:27.853 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:16:27.854 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:16:35.663 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:16:35.738 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:16:36.069 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:16:36.069 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:16:36.153 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:16:36.177 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:16:36.201 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:16:44.981 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:16:46.049 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:16:46.050 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:16:46.050 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:16:46.052 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:18:25.478 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:18:25.487 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:18:25.488 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:18:33.982 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:18:33.982 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:18:35.004 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:18:35.006 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:18:35.006 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:18:43.422 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:18:43.494 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:18:43.816 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:18:43.816 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:18:43.900 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:18:43.926 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:18:43.951 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:18:52.834 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:18:54.260 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:18:54.260 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:18:54.261 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:18:54.263 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:19:56.761 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:19:56.771 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:19:56.771 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:20:05.462 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:20:05.462 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:20:06.495 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:20:06.497 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:20:06.497 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:20:14.303 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:20:14.380 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:20:14.712 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:20:14.713 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:20:14.801 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:20:14.831 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:20:14.855 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:20:23.845 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:20:24.878 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:20:24.878 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:20:24.878 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:20:24.880 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:25:44.291 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:25:44.301 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:25:44.301 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:25:52.814 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:25:52.815 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:25:53.838 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:25:53.839 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:25:53.839 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:26:02.280 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:26:02.356 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:26:02.704 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:26:02.704 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:26:02.791 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:26:02.818 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:26:02.845 | ERROR    | main:main:280 | Job failed, exited with error: [NOT_ITERABLE] Column is not iterable.
+2025-11-06 09:26:02.846 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:26:34.004 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:26:34.013 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:26:34.013 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:26:42.649 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:26:42.649 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:26:43.695 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:26:43.696 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:26:43.697 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:26:51.565 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:26:51.638 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:26:51.988 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:26:51.988 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:26:52.068 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:26:52.095 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:26:52.133 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:27:01.010 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:27:02.087 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:27:02.087 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:27:02.087 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:27:02.089 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:38:31.495 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:38:31.508 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:38:31.509 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:38:40.104 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:38:40.104 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:38:41.135 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:38:41.137 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:38:41.137 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:38:49.002 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:38:49.078 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:38:49.404 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:38:49.404 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:38:49.492 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:38:49.517 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:38:49.552 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:38:58.432 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:38:59.476 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:38:59.476 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:38:59.476 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:38:59.478 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:39:31.170 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:39:31.179 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:39:31.180 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:39:39.735 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:39:39.735 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:39:40.765 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:39:40.767 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:39:40.767 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:39:48.919 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:39:48.999 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 09:39:49.028 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-06 09:39:56.111 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 09:39:56.111 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 09:39:56.188 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 09:39:56.208 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 09:39:56.239 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 09:40:01.799 | ERROR    | main:main:280 | Job failed, exited with error: An error occurred while calling o199.showString
+2025-11-06 09:40:01.799 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 09:40:34.116 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 09:40:34.140 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 09:40:34.141 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 09:40:42.766 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 09:40:42.766 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 09:40:43.789 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 09:40:43.790 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 09:40:43.790 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 09:40:51.703 | INFO     | main:main:189 | Missing columns added
+2025-11-06 09:40:52.590 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 09:40:53.630 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 09:40:53.631 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 09:40:53.631 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 09:40:53.633 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 10:06:27.160 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 10:06:27.175 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 10:06:28.986 | INFO     | staging_table:add_to_staging_table:22 | Added sales_data.csv to staging table
+2025-11-06 10:10:19.936 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 10:10:19.946 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 10:10:19.946 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 10:10:28.638 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 10:10:28.638 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 10:10:29.753 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 10:10:29.755 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 10:10:29.755 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 10:10:37.983 | INFO     | main:main:189 | Missing columns added
+2025-11-06 10:10:38.050 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 10:10:38.072 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-06 10:10:38.346 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 10:10:38.346 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 10:10:38.426 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 10:10:38.458 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 10:10:38.495 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 10:10:47.224 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 10:10:48.269 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 10:10:48.270 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 10:10:48.270 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 10:10:48.272 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
+2025-11-06 11:33:24.563 | INFO     | mysql_session:get_mysql_connection:16 | Connecting to mysql database...
+2025-11-06 11:33:24.573 | INFO     | mysql_session:get_mysql_connection:23 | Connection with mysql established.
+2025-11-06 11:33:24.573 | INFO     | read_s3_metadata:get_bucket_details:20 | Fetched 2 active sources for environment: dev
+2025-11-06 11:33:28.184 | INFO     | spark_session:spark_session:27 | Spark session created
+2025-11-06 11:33:28.184 | INFO     | main:main:64 | Processing S3 bucket: relmart-sales-project, folder: sales_data/
+2025-11-06 11:33:29.258 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-sales-project/sales_data/
+2025-11-06 11:33:29.260 | INFO     | main:main:111 | Found 1 matching records in staging for relmart-sales-project
+2025-11-06 11:33:29.260 | INFO     | main:main:126 | Running loop for Abs Path: ['s3://relmart-sales-project/sales_data/2025_11_06/sales_data.csv']
+2025-11-06 11:33:37.672 | INFO     | main:main:189 | Missing columns added
+2025-11-06 11:33:37.758 | INFO     | main:main:239 | Enforcing Correct DataType...
+2025-11-06 11:33:37.776 | INFO     | main:main:243 | Writing final dataframe:
+2025-11-06 11:33:38.098 | INFO     | main:main:268 | Dimension tables loaded in spark successfully
+2025-11-06 11:33:38.098 | INFO     | dimension_tables_join:dimensions_table_join:8 | Joining the final_df_to_process with customer_df 
+2025-11-06 11:33:38.190 | INFO     | dimension_tables_join:dimensions_table_join:18 | Joining the s3_customer_joined_df with store_df 
+2025-11-06 11:33:38.220 | INFO     | dimension_tables_join:dimensions_table_join:27 | Joining the s3_customer_store_joined_df with sales_team_df 
+2025-11-06 11:33:38.259 | INFO     | main:main:275 | Dataframe after data enrichment:
+2025-11-06 11:33:47.275 | INFO     | main:main:64 | Processing S3 bucket: relmart-test, folder: test/
+2025-11-06 11:33:48.307 | INFO     | aws_read:list_files:18 | Looking for Files in relmart-test/test/
+2025-11-06 11:33:48.307 | WARNING  | aws_read:list_files:43 | No CSV files present in relmart-test/test/
+2025-11-06 11:33:48.307 | ERROR    | main:main:78 | No files found in relmart-test, folder: test/ 
+2025-11-06 11:33:48.309 | INFO     | mysql_session:disconnect:32 | 🔌 MySQL connection closed.
