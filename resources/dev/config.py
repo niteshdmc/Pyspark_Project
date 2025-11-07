@@ -9,8 +9,8 @@ iv = "proj_rel_encrypt"
 salt = "martproject_AesEncryption"
 
 #AWS Access And Secret key
-aws_access_key = "EY4klxvYkvQ+H1gUCIeccCmz/DqHZoK62o+aLsGcGPE="
-aws_secret_key = "ac/Eo0TZ3SWb4UAiXDtKFePI5FH9y4LJ/ywvFXTPff5o+S4HToJzyUBLxYiFMIDS"
+aws_access_key = "accesskey"
+aws_secret_key = "secretkey"
 
 #AWS S3 Bucket and directories
 bucket_name = "relmart-sales-project"
